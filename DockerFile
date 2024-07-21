@@ -10,5 +10,9 @@ COPY dags /usr/local/airflow/dags
 # Copy your plugins folder into the container (if you have plugins)
 COPY plugins /usr/local/airflow/plugins
 
+# Create the landing_zone directory and set permissions
+RUN mkdir -p /usr/local/airflow/landing_zone && \
+    chown -R airflow:airflow /usr/local/airflow/landing_zone
+
 # Set the working directory
 WORKDIR /usr/local/airflow
