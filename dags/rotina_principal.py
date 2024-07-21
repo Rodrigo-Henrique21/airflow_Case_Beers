@@ -1,5 +1,6 @@
 from airflow import DAG
 from airflow.operators.python import PythonOperator
+from airflow.providers.databricks.operators.databricks import DatabricksRunNowOperator
 from airflow.utils.dates import days_ago
 from airflow.models import Variable
 import requests
@@ -63,14 +64,36 @@ default_args = {
 }
 
 with DAG(
-    'ingest_brewery_data',
+    'execute_databricks_notebooks',
     default_args=default_args,
-    description='Ingesta dados da API Open Brewery DB e salva no Azure Blob Storage',
+    description='Executa notebooks no Databricks para processar dados da Open Brewery DB',
     schedule_interval='@daily',
     catchup=False,
 ) as dag:
-
-    ingest_data = PythonOperator(
-        task_id='fetch_and_upload_brewery_data',
-        python_callable=fetch_and_upload_brewery_data,
+    
+    run_fetch_and_upload_brewery_data = DatabricksRunNowOperator(
+        task_id='run_load_bronze_data',
+        databricks_conn_id='databricks_default',
+        notebook_task={'notebook_path': '/path/to/load_bronze_data'}
     )
+        
+
+    run_load_bronze_data = DatabricksRunNowOperator(
+        task_id='run_load_bronze_data',
+        databricks_conn_id='databricks_default',
+        notebook_task={'notebook_path': '/path/to/load_bronze_data'}
+    )
+
+    run_transform_to_silver = DatabricksRunNowOperator(
+        task_id='run_transform_to_silver',
+        databricks_conn_id='databricks_default',
+        notebook_task={'notebook_path': '/path/to/transform_to_silver'}
+    )
+
+    run_create_gold_aggregation = DatabricksRunNowOperator(
+        task_id='run_create_gold_aggregation',
+        databricks_conn_id='databricks_default',
+        notebook_task={'notebook_path': '/path/to/create_gold_aggregation'}
+    )
+
+    run_load_bronze_data >> run_transform_to_silver >> run_create_gold_aggregation
