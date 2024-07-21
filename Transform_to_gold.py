@@ -25,10 +25,3 @@ df_gold.write\
             .mode("overwrite")\
                 .saveAsTable("gold.brewery_data")
 
-# Escrever dados transformados na camada Prata no Delta Lake
-path = f"wasbs://gold@{storage_account_name}.blob.core.windows.net/silver_data"
-df_silver.write.format("delta") \
-                .mode("overwrite") \
-                  .partitionBy("estado", "cidade") \
-                      .save(path)
-

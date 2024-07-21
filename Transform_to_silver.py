@@ -1,8 +1,11 @@
 # Databricks notebook source
 # Databricks notebook source
 from pyspark.sql import SparkSession
+from pyspark.sql.window import Window
 import pyspark.sql.functions as F
 from pyspark.sql.types import *
+import os
+
 
 # Define constantes e chaves de ambiente
 storage_account_name = os.environ['storage_account_name']
@@ -93,7 +96,8 @@ df_silver = \
                 'cidade': '-',
                 'estado': '-',
                 'site': '-'
-            })
+            })\
+             .cache()
              
 
 # Definir uma função para validar o formato da URL
@@ -119,7 +123,7 @@ df_silver = df_silver.withColumn("website_url_validacao", F.col("validao_site.va
 df_silver = df_silver.withColumn("indicador_seguranca_site", F.col("validao_site.indicador_seguranca_site"))
 
 # Definir a especificação de janela para substituição de URLs nulas
-window_spec = Window.partitionBy("nome").orderBy(col("site").desc())
+window_spec = Window.partitionBy("nome").orderBy(F.col("site").desc())
 
 # Substituir URLs nulas
 df_silver = df_silver.withColumn(
@@ -137,7 +141,8 @@ df_silver = df_silver.withColumn(
         F.col("website_url_validacao") == False,
         F.regexp_replace(F.col("site"), "^(http|https)://", "https://")
     ).otherwise(F.col("site"))
-)
+)\
+                    .cache()
 
 
 # Salvar como tabela Delta na camada Prata, particionado por estado e cidade
@@ -147,15 +152,3 @@ df_silver.write\
                 .partitionBy("estado", "cidade")\
                     .saveAsTable("silver.brewery_data")
 
-# Escrever dados transformados na camada Prata no Delta Lake
-path = f"wasbs://silver@{storage_account_name}.blob.core.windows.net/silver_data"
-df_silver.write.format("delta") \
-                .mode("overwrite") \
-                  .partitionBy("estado", "cidade") \
-                      .save(path)
-
-
-# COMMAND ----------
-
-# MAGIC %sql
-# MAGIC select * from silver.brewery_data;
