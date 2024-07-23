@@ -565,3 +565,28 @@
 [2024-07-23T00:40:59.921+0000] {logging_mixin.py:188} INFO - [2024-07-23T00:40:59.921+0000] {dag.py:3089} INFO - Sync 1 DAGs
 [2024-07-23T00:40:59.936+0000] {logging_mixin.py:188} INFO - [2024-07-23T00:40:59.936+0000] {dag.py:3947} INFO - Setting next_dagrun for execute_databricks_workflow to 2024-07-23 00:00:00+00:00, run_after=2024-07-24 00:00:00+00:00
 [2024-07-23T00:40:59.959+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.467 seconds
+[2024-07-23T00:41:19.079+0000] {processor.py:161} INFO - Started process (PID=2005) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-23T00:41:19.079+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-23T00:41:19.081+0000] {logging_mixin.py:188} INFO - [2024-07-23T00:41:19.080+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-23T00:41:19.564+0000] {processor.py:840} INFO - DAG(s) 'executar_workflow_databricks' retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-23T00:41:19.680+0000] {logging_mixin.py:188} INFO - [2024-07-23T00:41:19.679+0000] {override.py:1858} INFO - Created Permission View: can read on DAG:executar_workflow_databricks
+[2024-07-23T00:41:19.689+0000] {logging_mixin.py:188} INFO - [2024-07-23T00:41:19.689+0000] {override.py:1858} INFO - Created Permission View: can delete on DAG:executar_workflow_databricks
+[2024-07-23T00:41:19.695+0000] {logging_mixin.py:188} INFO - [2024-07-23T00:41:19.695+0000] {override.py:1858} INFO - Created Permission View: can edit on DAG:executar_workflow_databricks
+[2024-07-23T00:41:19.696+0000] {logging_mixin.py:188} INFO - [2024-07-23T00:41:19.695+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-23T00:41:19.704+0000] {logging_mixin.py:188} INFO - [2024-07-23T00:41:19.703+0000] {dag.py:3111} INFO - Creating ORM DAG for executar_workflow_databricks
+[2024-07-23T00:41:19.711+0000] {logging_mixin.py:188} INFO - [2024-07-23T00:41:19.711+0000] {dag.py:3947} INFO - Setting next_dagrun for executar_workflow_databricks to 2024-07-22 00:00:00+00:00, run_after=2024-07-23 00:00:00+00:00
+[2024-07-23T00:41:19.731+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.658 seconds
+[2024-07-23T00:41:49.867+0000] {processor.py:161} INFO - Started process (PID=2014) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-23T00:41:49.868+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-23T00:41:49.869+0000] {logging_mixin.py:188} INFO - [2024-07-23T00:41:49.869+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-23T00:41:50.276+0000] {processor.py:840} INFO - DAG(s) 'executar_workflow_databricks' retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-23T00:41:50.295+0000] {logging_mixin.py:188} INFO - [2024-07-23T00:41:50.294+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-23T00:41:50.307+0000] {logging_mixin.py:188} INFO - [2024-07-23T00:41:50.307+0000] {dag.py:3947} INFO - Setting next_dagrun for executar_workflow_databricks to 2024-07-22 00:00:00+00:00, run_after=2024-07-23 00:00:00+00:00
+[2024-07-23T00:41:50.329+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.465 seconds
+[2024-07-23T00:42:20.463+0000] {processor.py:161} INFO - Started process (PID=2022) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-23T00:42:20.464+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-23T00:42:20.465+0000] {logging_mixin.py:188} INFO - [2024-07-23T00:42:20.465+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-23T00:42:20.867+0000] {processor.py:840} INFO - DAG(s) 'executar_workflow_databricks' retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-23T00:42:20.887+0000] {logging_mixin.py:188} INFO - [2024-07-23T00:42:20.886+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-23T00:42:20.900+0000] {logging_mixin.py:188} INFO - [2024-07-23T00:42:20.900+0000] {dag.py:3947} INFO - Setting next_dagrun for executar_workflow_databricks to 2024-07-22 00:00:00+00:00, run_after=2024-07-23 00:00:00+00:00
+[2024-07-23T00:42:20.915+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.456 seconds

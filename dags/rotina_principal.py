@@ -36,8 +36,8 @@ def verificar_workflow(workflow_name):
 
 # Função para criar um workflow
 def criar_workflow():
-    email_success = Variable.get("email_success")
-    email_failure = Variable.get("email_failure")
+    email_success = Variable.get("email")
+    email_failure = Variable.get("email")
     git_url = Variable.get("git_url")
     
     headers = {
