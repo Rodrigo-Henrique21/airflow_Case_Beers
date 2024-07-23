@@ -1,5 +1,11 @@
 # Databricks notebook source
-from pyspark.sql import SparkSession
+# MAGIC %md
+# MAGIC # Leitura incial
+# MAGIC  - Dados captura da camda row
+# MAGIC  - Inserção para o metastore
+
+# COMMAND ----------
+
 import os
 
 # Definir variáveis a partir das variáveis de ambiente

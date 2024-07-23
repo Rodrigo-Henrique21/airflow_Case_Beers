@@ -1,24 +1,19 @@
 # Databricks notebook source
+# MAGIC %md
+# MAGIC # Tratamento para camada silver
+# MAGIC - Realização da limpeza incial dos dados
+# MAGIC - Troca do nome da colunas
+# MAGIC - Ajuste sites
+# MAGIC - Criação do indicador de segurança
+# MAGIC - Disponinilização
+
+# COMMAND ----------
+
 # Databricks notebook source
-from pyspark.sql import SparkSession
 from pyspark.sql.window import Window
 import pyspark.sql.functions as F
 from pyspark.sql.types import *
 import os
-
-# Define constantes e chaves de ambiente
-storage_account_name = os.environ['storage_account_name']
-container_name = "silver"
-mount_point = "/mnt/silver_data"
-
-# Verificar se o diretório já está montado
-if not any(mount.mountPoint == mount_point for mount in dbutils.fs.mounts()):
-    # Montar o Azure Blob Storage
-    dbutils.fs.mount(
-        source=f"wasbs://{container_name}@{storage_account_name}.blob.core.windows.net",
-        mount_point=mount_point,
-        extra_configs={f"fs.azure.account.key.{storage_account_name}.blob.core.windows.net": dbutils.secrets.get(scope="keyvault", key="keystorage")}
-    )
 
 # Criação do esquema 'silver' se não existir
 spark.sql("CREATE SCHEMA IF NOT EXISTS silver")
