@@ -1,0 +1,1201 @@
+[2024-07-19T17:01:16.302+0000] {processor.py:161} INFO - Started process (PID=47) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:01:16.303+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:01:16.305+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:01:16.305+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:01:16.340+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:01:16.337+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/rotina_principal.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rotina_principal.py", line 4, in <module>
+    from airflow.providers.databricks.operators.databricks import DatabricksRunNowOperator
+ModuleNotFoundError: No module named 'airflow.providers.databricks'
+[2024-07-19T17:01:16.341+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:01:16.357+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.058 seconds
+[2024-07-19T17:01:46.459+0000] {processor.py:161} INFO - Started process (PID=54) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:01:46.460+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:01:46.461+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:01:46.461+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:01:46.475+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:01:46.472+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/rotina_principal.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rotina_principal.py", line 4, in <module>
+    from airflow.providers.databricks.operators.databricks import DatabricksRunNowOperator
+ModuleNotFoundError: No module named 'airflow.providers.databricks'
+[2024-07-19T17:01:46.476+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:01:46.499+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.043 seconds
+[2024-07-19T17:02:16.590+0000] {processor.py:161} INFO - Started process (PID=61) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:02:16.591+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:02:16.592+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:02:16.592+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:02:16.605+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:02:16.603+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/rotina_principal.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rotina_principal.py", line 4, in <module>
+    from airflow.providers.databricks.operators.databricks import DatabricksRunNowOperator
+ModuleNotFoundError: No module named 'airflow.providers.databricks'
+[2024-07-19T17:02:16.606+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:02:16.619+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.033 seconds
+[2024-07-19T17:02:46.718+0000] {processor.py:161} INFO - Started process (PID=68) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:02:46.719+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:02:46.720+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:02:46.720+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:02:46.733+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:02:46.731+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/rotina_principal.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rotina_principal.py", line 4, in <module>
+    from airflow.providers.databricks.operators.databricks import DatabricksRunNowOperator
+ModuleNotFoundError: No module named 'airflow.providers.databricks'
+[2024-07-19T17:02:46.734+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:02:46.747+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.032 seconds
+[2024-07-19T17:03:16.845+0000] {processor.py:161} INFO - Started process (PID=75) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:03:16.845+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:03:16.846+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:03:16.846+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:03:16.860+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:03:16.858+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/rotina_principal.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rotina_principal.py", line 4, in <module>
+    from airflow.providers.databricks.operators.databricks import DatabricksRunNowOperator
+ModuleNotFoundError: No module named 'airflow.providers.databricks'
+[2024-07-19T17:03:16.861+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:03:16.875+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.034 seconds
+[2024-07-19T17:03:46.980+0000] {processor.py:161} INFO - Started process (PID=88) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:03:46.981+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:03:46.982+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:03:46.982+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:03:46.995+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:03:46.993+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/rotina_principal.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rotina_principal.py", line 4, in <module>
+    from airflow.providers.databricks.operators.databricks import DatabricksRunNowOperator
+ModuleNotFoundError: No module named 'airflow.providers.databricks'
+[2024-07-19T17:03:46.996+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:03:47.009+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.033 seconds
+[2024-07-19T17:04:05.070+0000] {processor.py:161} INFO - Started process (PID=89) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:04:05.071+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:04:05.072+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:04:05.071+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:04:05.083+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:04:05.082+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/rotina_principal.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rotina_principal.py", line 14
+    'owner': 'airflow',
+           ^
+SyntaxError: invalid syntax
+[2024-07-19T17:04:05.083+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:04:05.096+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.029 seconds
+[2024-07-19T17:04:35.200+0000] {processor.py:161} INFO - Started process (PID=96) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:04:35.200+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:04:35.201+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:04:35.201+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:04:35.213+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:04:35.212+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/rotina_principal.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rotina_principal.py", line 14
+    'owner': 'airflow',
+           ^
+SyntaxError: invalid syntax
+[2024-07-19T17:04:35.214+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:04:35.226+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.029 seconds
+[2024-07-19T17:05:05.328+0000] {processor.py:161} INFO - Started process (PID=103) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:05:05.328+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:05:05.329+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:05:05.329+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:05:05.341+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:05:05.340+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/rotina_principal.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rotina_principal.py", line 14
+    'owner': 'airflow',
+           ^
+SyntaxError: invalid syntax
+[2024-07-19T17:05:05.342+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:05:05.354+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.030 seconds
+[2024-07-19T17:05:35.451+0000] {processor.py:161} INFO - Started process (PID=110) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:05:35.452+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:05:35.453+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:05:35.453+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:05:35.465+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:05:35.464+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/rotina_principal.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rotina_principal.py", line 14
+    'owner': 'airflow',
+           ^
+SyntaxError: invalid syntax
+[2024-07-19T17:05:35.466+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:05:35.481+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.033 seconds
+[2024-07-19T17:06:05.573+0000] {processor.py:161} INFO - Started process (PID=117) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:06:05.574+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:06:05.575+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:06:05.575+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:06:05.587+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:06:05.586+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/rotina_principal.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rotina_principal.py", line 14
+    'owner': 'airflow',
+           ^
+SyntaxError: invalid syntax
+[2024-07-19T17:06:05.587+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:06:05.602+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.032 seconds
+[2024-07-19T17:06:35.703+0000] {processor.py:161} INFO - Started process (PID=124) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:06:35.704+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:06:35.705+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:06:35.704+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:06:35.717+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:06:35.716+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/rotina_principal.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rotina_principal.py", line 14
+    'owner': 'airflow',
+           ^
+SyntaxError: invalid syntax
+[2024-07-19T17:06:35.717+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:06:35.732+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.033 seconds
+[2024-07-19T17:07:05.831+0000] {processor.py:161} INFO - Started process (PID=131) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:07:05.831+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:07:05.832+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:07:05.832+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:07:05.844+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:07:05.843+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/rotina_principal.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rotina_principal.py", line 14
+    'owner': 'airflow',
+           ^
+SyntaxError: invalid syntax
+[2024-07-19T17:07:05.844+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:07:05.867+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.040 seconds
+[2024-07-19T17:07:35.958+0000] {processor.py:161} INFO - Started process (PID=138) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:07:35.959+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:07:35.960+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:07:35.960+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:07:35.971+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:07:35.971+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/rotina_principal.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rotina_principal.py", line 14
+    'owner': 'airflow',
+           ^
+SyntaxError: invalid syntax
+[2024-07-19T17:07:35.972+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:07:35.994+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.039 seconds
+[2024-07-19T17:08:06.086+0000] {processor.py:161} INFO - Started process (PID=145) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:08:06.086+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:08:06.087+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:08:06.087+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:08:06.099+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:08:06.098+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/rotina_principal.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rotina_principal.py", line 14
+    'owner': 'airflow',
+           ^
+SyntaxError: invalid syntax
+[2024-07-19T17:08:06.099+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:08:06.121+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.039 seconds
+[2024-07-19T17:08:36.217+0000] {processor.py:161} INFO - Started process (PID=152) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:08:36.217+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:08:36.219+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:08:36.218+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:08:36.230+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:08:36.229+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/rotina_principal.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rotina_principal.py", line 14
+    'owner': 'airflow',
+           ^
+SyntaxError: invalid syntax
+[2024-07-19T17:08:36.231+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:08:36.253+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.040 seconds
+[2024-07-19T17:09:06.345+0000] {processor.py:161} INFO - Started process (PID=159) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:09:06.345+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:09:06.346+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:09:06.346+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:09:06.358+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:09:06.358+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/rotina_principal.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rotina_principal.py", line 14
+    'owner': 'airflow',
+           ^
+SyntaxError: invalid syntax
+[2024-07-19T17:09:06.359+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:09:06.374+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.032 seconds
+[2024-07-19T17:09:36.476+0000] {processor.py:161} INFO - Started process (PID=166) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:09:36.477+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:09:36.478+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:09:36.478+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:09:36.490+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:09:36.489+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/rotina_principal.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rotina_principal.py", line 14
+    'owner': 'airflow',
+           ^
+SyntaxError: invalid syntax
+[2024-07-19T17:09:36.490+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:09:36.503+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.030 seconds
+[2024-07-19T17:10:06.602+0000] {processor.py:161} INFO - Started process (PID=174) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:10:06.602+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:10:06.603+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:10:06.603+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:10:06.615+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:10:06.614+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/rotina_principal.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rotina_principal.py", line 14
+    'owner': 'airflow',
+           ^
+SyntaxError: invalid syntax
+[2024-07-19T17:10:06.616+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:10:06.638+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.040 seconds
+[2024-07-19T17:10:36.730+0000] {processor.py:161} INFO - Started process (PID=181) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:10:36.731+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:10:36.732+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:10:36.732+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:10:36.743+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:10:36.742+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/rotina_principal.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rotina_principal.py", line 14
+    'owner': 'airflow',
+           ^
+SyntaxError: invalid syntax
+[2024-07-19T17:10:36.744+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:10:36.758+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.031 seconds
+[2024-07-19T17:10:45.781+0000] {processor.py:161} INFO - Started process (PID=182) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:10:45.782+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:10:45.783+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:10:45.782+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:10:45.813+0000] {processor.py:840} INFO - DAG(s) 'simple_dag' retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:10:45.971+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:10:45.971+0000] {override.py:1858} INFO - Created Permission View: can delete on DAG:simple_dag
+[2024-07-19T17:10:45.979+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:10:45.979+0000] {override.py:1858} INFO - Created Permission View: can edit on DAG:simple_dag
+[2024-07-19T17:10:45.984+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:10:45.984+0000] {override.py:1858} INFO - Created Permission View: can read on DAG:simple_dag
+[2024-07-19T17:10:45.985+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:10:45.984+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-19T17:10:45.993+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:10:45.992+0000] {dag.py:3111} INFO - Creating ORM DAG for simple_dag
+[2024-07-19T17:10:46.088+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:10:46.088+0000] {dag.py:3947} INFO - Setting next_dagrun for simple_dag to 2024-07-18 00:00:00+00:00, run_after=2024-07-19 00:00:00+00:00
+[2024-07-19T17:10:46.103+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.325 seconds
+[2024-07-19T17:10:53.839+0000] {processor.py:161} INFO - Started process (PID=189) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:10:53.839+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:10:53.840+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:10:53.840+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:10:53.867+0000] {processor.py:840} INFO - DAG(s) 'simple_dag' retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:10:53.876+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:10:53.876+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-19T17:10:53.897+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:10:53.897+0000] {dag.py:3947} INFO - Setting next_dagrun for simple_dag to 2024-07-18 00:00:00+00:00, run_after=2024-07-19 00:00:00+00:00
+[2024-07-19T17:10:53.915+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.081 seconds
+[2024-07-19T17:11:12.343+0000] {processor.py:161} INFO - Started process (PID=40) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:11:12.344+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:11:12.345+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:11:12.345+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:11:12.361+0000] {processor.py:840} INFO - DAG(s) 'simple_dag' retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:11:12.462+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:11:12.462+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-19T17:11:12.476+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:11:12.475+0000] {dag.py:3947} INFO - Setting next_dagrun for simple_dag to 2024-07-18 00:00:00+00:00, run_after=2024-07-19 00:00:00+00:00
+[2024-07-19T17:11:12.498+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.158 seconds
+[2024-07-19T17:11:42.607+0000] {processor.py:161} INFO - Started process (PID=53) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:11:42.608+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:11:42.609+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:11:42.609+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:11:42.624+0000] {processor.py:840} INFO - DAG(s) 'simple_dag' retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:11:42.641+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:11:42.641+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-19T17:11:42.656+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:11:42.656+0000] {dag.py:3947} INFO - Setting next_dagrun for simple_dag to 2024-07-18 00:00:00+00:00, run_after=2024-07-19 00:00:00+00:00
+[2024-07-19T17:11:42.669+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.065 seconds
+[2024-07-19T17:12:12.724+0000] {processor.py:161} INFO - Started process (PID=60) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:12:12.724+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:12:12.725+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:12:12.725+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:12:12.741+0000] {processor.py:840} INFO - DAG(s) 'simple_dag' retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:12:12.758+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:12:12.758+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-19T17:12:12.772+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:12:12.772+0000] {dag.py:3947} INFO - Setting next_dagrun for simple_dag to 2024-07-18 00:00:00+00:00, run_after=2024-07-19 00:00:00+00:00
+[2024-07-19T17:12:12.787+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.067 seconds
+[2024-07-19T17:12:42.878+0000] {processor.py:161} INFO - Started process (PID=67) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:12:42.878+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:12:42.880+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:12:42.879+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:12:42.895+0000] {processor.py:840} INFO - DAG(s) 'simple_dag' retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:12:42.912+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:12:42.912+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-19T17:12:42.928+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:12:42.928+0000] {dag.py:3947} INFO - Setting next_dagrun for simple_dag to 2024-07-19 00:00:00+00:00, run_after=2024-07-20 00:00:00+00:00
+[2024-07-19T17:12:42.942+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.067 seconds
+[2024-07-19T17:13:13.005+0000] {processor.py:161} INFO - Started process (PID=74) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:13:13.006+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:13:13.007+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:13:13.007+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:13:13.023+0000] {processor.py:840} INFO - DAG(s) 'simple_dag' retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:13:13.040+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:13:13.040+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-19T17:13:13.056+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:13:13.056+0000] {dag.py:3947} INFO - Setting next_dagrun for simple_dag to 2024-07-19 00:00:00+00:00, run_after=2024-07-20 00:00:00+00:00
+[2024-07-19T17:13:13.078+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.077 seconds
+[2024-07-19T17:13:43.151+0000] {processor.py:161} INFO - Started process (PID=81) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:13:43.152+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:13:43.153+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:13:43.153+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:13:43.169+0000] {processor.py:840} INFO - DAG(s) 'simple_dag' retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:13:43.186+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:13:43.186+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-19T17:13:43.201+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:13:43.201+0000] {dag.py:3947} INFO - Setting next_dagrun for simple_dag to 2024-07-19 00:00:00+00:00, run_after=2024-07-20 00:00:00+00:00
+[2024-07-19T17:13:43.216+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.069 seconds
+[2024-07-19T17:14:13.284+0000] {processor.py:161} INFO - Started process (PID=88) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:14:13.284+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:14:13.285+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:14:13.285+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:14:13.303+0000] {processor.py:840} INFO - DAG(s) 'simple_dag' retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:14:13.323+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:14:13.323+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-19T17:14:13.339+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:14:13.338+0000] {dag.py:3947} INFO - Setting next_dagrun for simple_dag to 2024-07-19 00:00:00+00:00, run_after=2024-07-20 00:00:00+00:00
+[2024-07-19T17:14:13.351+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.071 seconds
+[2024-07-19T17:14:43.433+0000] {processor.py:161} INFO - Started process (PID=95) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:14:43.434+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:14:43.435+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:14:43.435+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:14:43.452+0000] {processor.py:840} INFO - DAG(s) 'simple_dag' retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:14:43.469+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:14:43.469+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-19T17:14:43.485+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:14:43.485+0000] {dag.py:3947} INFO - Setting next_dagrun for simple_dag to 2024-07-19 00:00:00+00:00, run_after=2024-07-20 00:00:00+00:00
+[2024-07-19T17:14:43.497+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.067 seconds
+[2024-07-19T17:15:13.573+0000] {processor.py:161} INFO - Started process (PID=102) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:15:13.573+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:15:13.575+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:15:13.575+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:15:13.592+0000] {processor.py:840} INFO - DAG(s) 'simple_dag' retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:15:13.610+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:15:13.610+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-19T17:15:13.626+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:15:13.625+0000] {dag.py:3947} INFO - Setting next_dagrun for simple_dag to 2024-07-19 00:00:00+00:00, run_after=2024-07-20 00:00:00+00:00
+[2024-07-19T17:15:13.639+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.070 seconds
+[2024-07-19T17:15:43.720+0000] {processor.py:161} INFO - Started process (PID=109) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:15:43.720+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:15:43.721+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:15:43.721+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:15:43.737+0000] {processor.py:840} INFO - DAG(s) 'simple_dag' retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:15:43.754+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:15:43.754+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-19T17:15:43.769+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:15:43.769+0000] {dag.py:3947} INFO - Setting next_dagrun for simple_dag to 2024-07-19 00:00:00+00:00, run_after=2024-07-20 00:00:00+00:00
+[2024-07-19T17:15:43.792+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.076 seconds
+[2024-07-19T17:16:13.871+0000] {processor.py:161} INFO - Started process (PID=116) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:16:13.871+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:16:13.872+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:16:13.872+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:16:13.889+0000] {processor.py:840} INFO - DAG(s) 'simple_dag' retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:16:13.906+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:16:13.905+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-19T17:16:13.920+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:16:13.920+0000] {dag.py:3947} INFO - Setting next_dagrun for simple_dag to 2024-07-19 00:00:00+00:00, run_after=2024-07-20 00:00:00+00:00
+[2024-07-19T17:16:13.943+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.075 seconds
+[2024-07-19T17:16:43.997+0000] {processor.py:161} INFO - Started process (PID=123) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:16:43.998+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:16:43.999+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:16:43.998+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:16:44.014+0000] {processor.py:840} INFO - DAG(s) 'simple_dag' retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:16:44.032+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:16:44.032+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-19T17:16:44.050+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:16:44.050+0000] {dag.py:3947} INFO - Setting next_dagrun for simple_dag to 2024-07-19 00:00:00+00:00, run_after=2024-07-20 00:00:00+00:00
+[2024-07-19T17:16:44.077+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.083 seconds
+[2024-07-19T17:17:14.153+0000] {processor.py:161} INFO - Started process (PID=130) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:17:14.153+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:17:14.154+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:17:14.154+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:17:14.170+0000] {processor.py:840} INFO - DAG(s) 'simple_dag' retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:17:14.187+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:17:14.187+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-19T17:17:14.202+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:17:14.202+0000] {dag.py:3947} INFO - Setting next_dagrun for simple_dag to 2024-07-19 00:00:00+00:00, run_after=2024-07-20 00:00:00+00:00
+[2024-07-19T17:17:14.228+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.079 seconds
+[2024-07-19T17:17:44.271+0000] {processor.py:161} INFO - Started process (PID=137) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:17:44.271+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:17:44.272+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:17:44.272+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:17:44.288+0000] {processor.py:840} INFO - DAG(s) 'simple_dag' retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:17:44.305+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:17:44.305+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-19T17:17:44.320+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:17:44.320+0000] {dag.py:3947} INFO - Setting next_dagrun for simple_dag to 2024-07-19 00:00:00+00:00, run_after=2024-07-20 00:00:00+00:00
+[2024-07-19T17:17:44.348+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.081 seconds
+[2024-07-19T17:18:14.443+0000] {processor.py:161} INFO - Started process (PID=145) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:18:14.443+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:18:14.444+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:18:14.444+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:18:14.460+0000] {processor.py:840} INFO - DAG(s) 'simple_dag' retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:18:14.476+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:18:14.476+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-19T17:18:14.491+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:18:14.490+0000] {dag.py:3947} INFO - Setting next_dagrun for simple_dag to 2024-07-19 00:00:00+00:00, run_after=2024-07-20 00:00:00+00:00
+[2024-07-19T17:18:14.508+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.068 seconds
+[2024-07-19T17:18:44.565+0000] {processor.py:161} INFO - Started process (PID=152) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:18:44.565+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:18:44.567+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:18:44.566+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:18:44.589+0000] {processor.py:840} INFO - DAG(s) 'simple_dag' retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:18:44.611+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:18:44.611+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-19T17:18:44.628+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:18:44.628+0000] {dag.py:3947} INFO - Setting next_dagrun for simple_dag to 2024-07-19 00:00:00+00:00, run_after=2024-07-20 00:00:00+00:00
+[2024-07-19T17:18:44.655+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.094 seconds
+[2024-07-19T17:19:14.728+0000] {processor.py:161} INFO - Started process (PID=159) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:19:14.729+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:19:14.730+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:19:14.730+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:19:14.746+0000] {processor.py:840} INFO - DAG(s) 'simple_dag' retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:19:14.764+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:19:14.764+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-19T17:19:14.780+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:19:14.780+0000] {dag.py:3947} INFO - Setting next_dagrun for simple_dag to 2024-07-19 00:00:00+00:00, run_after=2024-07-20 00:00:00+00:00
+[2024-07-19T17:19:14.803+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.078 seconds
+[2024-07-19T17:19:44.865+0000] {processor.py:161} INFO - Started process (PID=166) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:19:44.866+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:19:44.867+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:19:44.867+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:19:44.883+0000] {processor.py:840} INFO - DAG(s) 'simple_dag' retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:19:44.901+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:19:44.901+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-19T17:19:44.916+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:19:44.916+0000] {dag.py:3947} INFO - Setting next_dagrun for simple_dag to 2024-07-19 00:00:00+00:00, run_after=2024-07-20 00:00:00+00:00
+[2024-07-19T17:19:44.945+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.083 seconds
+[2024-07-19T17:20:15.007+0000] {processor.py:161} INFO - Started process (PID=173) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:20:15.007+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:20:15.008+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:20:15.008+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:20:15.025+0000] {processor.py:840} INFO - DAG(s) 'simple_dag' retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:20:15.042+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:20:15.041+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-19T17:20:15.056+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:20:15.056+0000] {dag.py:3947} INFO - Setting next_dagrun for simple_dag to 2024-07-19 00:00:00+00:00, run_after=2024-07-20 00:00:00+00:00
+[2024-07-19T17:20:15.073+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.069 seconds
+[2024-07-19T17:20:45.151+0000] {processor.py:161} INFO - Started process (PID=180) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:20:45.152+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:20:45.153+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:20:45.153+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:20:45.169+0000] {processor.py:840} INFO - DAG(s) 'simple_dag' retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:20:45.186+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:20:45.186+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-19T17:20:45.201+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:20:45.201+0000] {dag.py:3947} INFO - Setting next_dagrun for simple_dag to 2024-07-19 00:00:00+00:00, run_after=2024-07-20 00:00:00+00:00
+[2024-07-19T17:20:45.218+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.070 seconds
+[2024-07-19T17:21:15.300+0000] {processor.py:161} INFO - Started process (PID=187) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:21:15.300+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:21:15.302+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:21:15.301+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:21:15.317+0000] {processor.py:840} INFO - DAG(s) 'simple_dag' retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:21:15.334+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:21:15.334+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-19T17:21:15.349+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:21:15.349+0000] {dag.py:3947} INFO - Setting next_dagrun for simple_dag to 2024-07-19 00:00:00+00:00, run_after=2024-07-20 00:00:00+00:00
+[2024-07-19T17:21:15.366+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.069 seconds
+[2024-07-19T17:21:45.428+0000] {processor.py:161} INFO - Started process (PID=194) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:21:45.428+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:21:45.429+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:21:45.429+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:21:45.447+0000] {processor.py:840} INFO - DAG(s) 'simple_dag' retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:21:45.465+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:21:45.464+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-19T17:21:45.481+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:21:45.481+0000] {dag.py:3947} INFO - Setting next_dagrun for simple_dag to 2024-07-19 00:00:00+00:00, run_after=2024-07-20 00:00:00+00:00
+[2024-07-19T17:21:45.500+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.076 seconds
+[2024-07-19T17:22:15.582+0000] {processor.py:161} INFO - Started process (PID=201) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:22:15.582+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:22:15.583+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:22:15.583+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:22:15.600+0000] {processor.py:840} INFO - DAG(s) 'simple_dag' retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:22:15.618+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:22:15.618+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-19T17:22:15.633+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:22:15.633+0000] {dag.py:3947} INFO - Setting next_dagrun for simple_dag to 2024-07-19 00:00:00+00:00, run_after=2024-07-20 00:00:00+00:00
+[2024-07-19T17:22:15.646+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.067 seconds
+[2024-07-19T17:22:45.705+0000] {processor.py:161} INFO - Started process (PID=208) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:22:45.706+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:22:45.707+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:22:45.707+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:22:45.723+0000] {processor.py:840} INFO - DAG(s) 'simple_dag' retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:22:45.739+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:22:45.739+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-19T17:22:45.754+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:22:45.754+0000] {dag.py:3947} INFO - Setting next_dagrun for simple_dag to 2024-07-19 00:00:00+00:00, run_after=2024-07-20 00:00:00+00:00
+[2024-07-19T17:22:45.767+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.065 seconds
+[2024-07-19T17:23:15.852+0000] {processor.py:161} INFO - Started process (PID=215) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:23:15.852+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:23:15.853+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:23:15.853+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:23:15.870+0000] {processor.py:840} INFO - DAG(s) 'simple_dag' retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:23:15.888+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:23:15.887+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-19T17:23:15.903+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:23:15.903+0000] {dag.py:3947} INFO - Setting next_dagrun for simple_dag to 2024-07-19 00:00:00+00:00, run_after=2024-07-20 00:00:00+00:00
+[2024-07-19T17:23:15.929+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.080 seconds
+[2024-07-19T17:23:45.975+0000] {processor.py:161} INFO - Started process (PID=222) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:23:45.976+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:23:45.977+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:23:45.977+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:23:45.993+0000] {processor.py:840} INFO - DAG(s) 'simple_dag' retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:23:46.011+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:23:46.010+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-19T17:23:46.025+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:23:46.025+0000] {dag.py:3947} INFO - Setting next_dagrun for simple_dag to 2024-07-19 00:00:00+00:00, run_after=2024-07-20 00:00:00+00:00
+[2024-07-19T17:23:46.051+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.079 seconds
+[2024-07-19T17:24:16.138+0000] {processor.py:161} INFO - Started process (PID=229) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:24:16.138+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:24:16.139+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:24:16.139+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:24:16.155+0000] {processor.py:840} INFO - DAG(s) 'simple_dag' retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:24:16.172+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:24:16.172+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-19T17:24:16.187+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:24:16.187+0000] {dag.py:3947} INFO - Setting next_dagrun for simple_dag to 2024-07-19 00:00:00+00:00, run_after=2024-07-20 00:00:00+00:00
+[2024-07-19T17:24:16.212+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.078 seconds
+[2024-07-19T17:24:46.259+0000] {processor.py:161} INFO - Started process (PID=237) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:24:46.260+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:24:46.261+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:24:46.261+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:24:46.277+0000] {processor.py:840} INFO - DAG(s) 'simple_dag' retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:24:46.293+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:24:46.293+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-19T17:24:46.308+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:24:46.308+0000] {dag.py:3947} INFO - Setting next_dagrun for simple_dag to 2024-07-19 00:00:00+00:00, run_after=2024-07-20 00:00:00+00:00
+[2024-07-19T17:24:46.334+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.078 seconds
+[2024-07-19T17:25:16.414+0000] {processor.py:161} INFO - Started process (PID=244) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:25:16.415+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:25:16.416+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:25:16.416+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:25:16.432+0000] {processor.py:840} INFO - DAG(s) 'simple_dag' retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:25:16.450+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:25:16.449+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-19T17:25:16.465+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:25:16.465+0000] {dag.py:3947} INFO - Setting next_dagrun for simple_dag to 2024-07-19 00:00:00+00:00, run_after=2024-07-20 00:00:00+00:00
+[2024-07-19T17:25:16.483+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.071 seconds
+[2024-07-19T17:25:46.535+0000] {processor.py:161} INFO - Started process (PID=252) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:25:46.536+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:25:46.537+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:25:46.537+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:25:46.555+0000] {processor.py:840} INFO - DAG(s) 'simple_dag' retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:25:46.573+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:25:46.573+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-19T17:25:46.589+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:25:46.589+0000] {dag.py:3947} INFO - Setting next_dagrun for simple_dag to 2024-07-19 00:00:00+00:00, run_after=2024-07-20 00:00:00+00:00
+[2024-07-19T17:25:46.606+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.074 seconds
+[2024-07-19T17:26:16.712+0000] {processor.py:161} INFO - Started process (PID=259) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:26:16.712+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:26:16.713+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:26:16.713+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:26:16.729+0000] {processor.py:840} INFO - DAG(s) 'simple_dag' retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:26:16.746+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:26:16.746+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-19T17:26:16.760+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:26:16.760+0000] {dag.py:3947} INFO - Setting next_dagrun for simple_dag to 2024-07-19 00:00:00+00:00, run_after=2024-07-20 00:00:00+00:00
+[2024-07-19T17:26:16.786+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.077 seconds
+[2024-07-19T17:26:46.834+0000] {processor.py:161} INFO - Started process (PID=266) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:26:46.834+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:26:46.835+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:26:46.835+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:26:46.851+0000] {processor.py:840} INFO - DAG(s) 'simple_dag' retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:26:46.868+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:26:46.868+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-19T17:26:46.883+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:26:46.882+0000] {dag.py:3947} INFO - Setting next_dagrun for simple_dag to 2024-07-19 00:00:00+00:00, run_after=2024-07-20 00:00:00+00:00
+[2024-07-19T17:26:46.904+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.073 seconds
+[2024-07-19T17:27:16.992+0000] {processor.py:161} INFO - Started process (PID=273) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:27:16.992+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:27:16.993+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:27:16.993+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:27:17.009+0000] {processor.py:840} INFO - DAG(s) 'simple_dag' retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:27:17.026+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:27:17.026+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-19T17:27:17.041+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:27:17.041+0000] {dag.py:3947} INFO - Setting next_dagrun for simple_dag to 2024-07-19 00:00:00+00:00, run_after=2024-07-20 00:00:00+00:00
+[2024-07-19T17:27:17.054+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.065 seconds
+[2024-07-19T17:27:47.116+0000] {processor.py:161} INFO - Started process (PID=281) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:27:47.116+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:27:47.117+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:27:47.117+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:27:47.134+0000] {processor.py:840} INFO - DAG(s) 'simple_dag' retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:27:47.150+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:27:47.150+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-19T17:27:47.165+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:27:47.165+0000] {dag.py:3947} INFO - Setting next_dagrun for simple_dag to 2024-07-19 00:00:00+00:00, run_after=2024-07-20 00:00:00+00:00
+[2024-07-19T17:27:47.191+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.079 seconds
+[2024-07-19T17:28:02.213+0000] {processor.py:161} INFO - Started process (PID=282) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:28:02.213+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:28:02.214+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:28:02.214+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:28:03.154+0000] {processor.py:840} INFO - DAG(s) 'ingest_brewery_data' retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:28:03.233+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:28:03.233+0000] {override.py:1858} INFO - Created Permission View: can edit on DAG:ingest_brewery_data
+[2024-07-19T17:28:03.244+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:28:03.244+0000] {override.py:1858} INFO - Created Permission View: can delete on DAG:ingest_brewery_data
+[2024-07-19T17:28:03.249+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:28:03.249+0000] {override.py:1858} INFO - Created Permission View: can read on DAG:ingest_brewery_data
+[2024-07-19T17:28:03.250+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:28:03.250+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-19T17:28:03.256+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:28:03.255+0000] {dag.py:3111} INFO - Creating ORM DAG for ingest_brewery_data
+[2024-07-19T17:28:03.262+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:28:03.261+0000] {dag.py:3947} INFO - Setting next_dagrun for ingest_brewery_data to 2024-07-18 00:00:00+00:00, run_after=2024-07-19 00:00:00+00:00
+[2024-07-19T17:28:03.273+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 1.064 seconds
+[2024-07-19T17:28:33.373+0000] {processor.py:161} INFO - Started process (PID=290) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:28:33.374+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:28:33.376+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:28:33.375+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:28:33.738+0000] {processor.py:840} INFO - DAG(s) 'ingest_brewery_data' retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:28:33.753+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:28:33.752+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-19T17:28:33.765+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:28:33.765+0000] {dag.py:3947} INFO - Setting next_dagrun for ingest_brewery_data to 2024-07-18 00:00:00+00:00, run_after=2024-07-19 00:00:00+00:00
+[2024-07-19T17:28:33.790+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.421 seconds
+[2024-07-19T17:29:03.923+0000] {processor.py:161} INFO - Started process (PID=298) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:29:03.924+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:29:03.925+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:29:03.925+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:29:04.307+0000] {processor.py:840} INFO - DAG(s) 'ingest_brewery_data' retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:29:04.324+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:29:04.324+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-19T17:29:04.346+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:29:04.345+0000] {dag.py:3947} INFO - Setting next_dagrun for ingest_brewery_data to 2024-07-18 00:00:00+00:00, run_after=2024-07-19 00:00:00+00:00
+[2024-07-19T17:29:04.360+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.441 seconds
+[2024-07-19T17:29:34.502+0000] {processor.py:161} INFO - Started process (PID=306) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:29:34.502+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:29:34.503+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:29:34.503+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:29:34.853+0000] {processor.py:840} INFO - DAG(s) 'ingest_brewery_data' retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:29:34.869+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:29:34.868+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-19T17:29:34.881+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:29:34.881+0000] {dag.py:3947} INFO - Setting next_dagrun for ingest_brewery_data to 2024-07-18 00:00:00+00:00, run_after=2024-07-19 00:00:00+00:00
+[2024-07-19T17:29:34.906+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.408 seconds
+[2024-07-19T17:30:05.039+0000] {processor.py:161} INFO - Started process (PID=315) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:30:05.039+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:30:05.040+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:30:05.040+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:30:05.412+0000] {processor.py:840} INFO - DAG(s) 'ingest_brewery_data' retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:30:05.427+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:30:05.427+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-19T17:30:05.439+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:30:05.439+0000] {dag.py:3947} INFO - Setting next_dagrun for ingest_brewery_data to 2024-07-18 00:00:00+00:00, run_after=2024-07-19 00:00:00+00:00
+[2024-07-19T17:30:05.452+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.417 seconds
+[2024-07-19T17:30:35.586+0000] {processor.py:161} INFO - Started process (PID=323) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:30:35.587+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:30:35.587+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:30:35.587+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:30:35.934+0000] {processor.py:840} INFO - DAG(s) 'ingest_brewery_data' retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:30:35.949+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:30:35.949+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-19T17:30:35.961+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:30:35.961+0000] {dag.py:3947} INFO - Setting next_dagrun for ingest_brewery_data to 2024-07-18 00:00:00+00:00, run_after=2024-07-19 00:00:00+00:00
+[2024-07-19T17:30:35.978+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.395 seconds
+[2024-07-19T17:31:06.106+0000] {processor.py:161} INFO - Started process (PID=331) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:31:06.107+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:31:06.107+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:31:06.107+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:31:06.453+0000] {processor.py:840} INFO - DAG(s) 'ingest_brewery_data' retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:31:06.467+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:31:06.467+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-19T17:31:06.480+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:31:06.480+0000] {dag.py:3947} INFO - Setting next_dagrun for ingest_brewery_data to 2024-07-18 00:00:00+00:00, run_after=2024-07-19 00:00:00+00:00
+[2024-07-19T17:31:06.504+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.401 seconds
+[2024-07-19T17:31:36.630+0000] {processor.py:161} INFO - Started process (PID=339) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:31:36.631+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:31:36.631+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:31:36.631+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:31:36.961+0000] {processor.py:840} INFO - DAG(s) 'ingest_brewery_data' retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:31:36.976+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:31:36.975+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-19T17:31:36.987+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:31:36.987+0000] {dag.py:3947} INFO - Setting next_dagrun for ingest_brewery_data to 2024-07-18 00:00:00+00:00, run_after=2024-07-19 00:00:00+00:00
+[2024-07-19T17:31:37.012+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.385 seconds
+[2024-07-19T17:32:07.135+0000] {processor.py:161} INFO - Started process (PID=347) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:32:07.136+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:32:07.136+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:32:07.136+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:32:07.465+0000] {processor.py:840} INFO - DAG(s) 'ingest_brewery_data' retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:32:07.480+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:32:07.480+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-19T17:32:07.492+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:32:07.491+0000] {dag.py:3947} INFO - Setting next_dagrun for ingest_brewery_data to 2024-07-18 00:00:00+00:00, run_after=2024-07-19 00:00:00+00:00
+[2024-07-19T17:32:07.516+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.384 seconds
+[2024-07-19T17:32:37.639+0000] {processor.py:161} INFO - Started process (PID=355) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:32:37.640+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:32:37.640+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:32:37.640+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:32:37.971+0000] {processor.py:840} INFO - DAG(s) 'ingest_brewery_data' retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:32:37.985+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:32:37.985+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-19T17:32:37.997+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:32:37.997+0000] {dag.py:3947} INFO - Setting next_dagrun for ingest_brewery_data to 2024-07-18 00:00:00+00:00, run_after=2024-07-19 00:00:00+00:00
+[2024-07-19T17:32:38.021+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.386 seconds
+[2024-07-19T17:33:08.147+0000] {processor.py:161} INFO - Started process (PID=363) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:33:08.148+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:33:08.148+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:33:08.148+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:33:08.476+0000] {processor.py:840} INFO - DAG(s) 'ingest_brewery_data' retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:33:08.490+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:33:08.489+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-19T17:33:08.501+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:33:08.501+0000] {dag.py:3947} INFO - Setting next_dagrun for ingest_brewery_data to 2024-07-18 00:00:00+00:00, run_after=2024-07-19 00:00:00+00:00
+[2024-07-19T17:33:08.525+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.381 seconds
+[2024-07-19T17:33:38.655+0000] {processor.py:161} INFO - Started process (PID=371) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:33:38.655+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:33:38.656+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:33:38.656+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:33:39.002+0000] {processor.py:840} INFO - DAG(s) 'ingest_brewery_data' retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:33:39.016+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:33:39.016+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-19T17:33:39.028+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:33:39.028+0000] {dag.py:3947} INFO - Setting next_dagrun for ingest_brewery_data to 2024-07-18 00:00:00+00:00, run_after=2024-07-19 00:00:00+00:00
+[2024-07-19T17:33:39.044+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.392 seconds
+[2024-07-19T17:34:09.170+0000] {processor.py:161} INFO - Started process (PID=379) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:34:09.171+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:34:09.171+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:34:09.171+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:34:09.503+0000] {processor.py:840} INFO - DAG(s) 'ingest_brewery_data' retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:34:09.517+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:34:09.517+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-19T17:34:09.529+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:34:09.529+0000] {dag.py:3947} INFO - Setting next_dagrun for ingest_brewery_data to 2024-07-18 00:00:00+00:00, run_after=2024-07-19 00:00:00+00:00
+[2024-07-19T17:34:09.554+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.387 seconds
+[2024-07-19T17:34:39.683+0000] {processor.py:161} INFO - Started process (PID=387) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:34:39.684+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:34:39.685+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:34:39.684+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:34:40.049+0000] {processor.py:840} INFO - DAG(s) 'ingest_brewery_data' retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:34:40.064+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:34:40.063+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-19T17:34:40.076+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:34:40.076+0000] {dag.py:3947} INFO - Setting next_dagrun for ingest_brewery_data to 2024-07-18 00:00:00+00:00, run_after=2024-07-19 00:00:00+00:00
+[2024-07-19T17:34:40.091+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.411 seconds
+[2024-07-19T17:35:10.219+0000] {processor.py:161} INFO - Started process (PID=395) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:35:10.220+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:35:10.221+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:35:10.220+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:35:10.566+0000] {processor.py:840} INFO - DAG(s) 'ingest_brewery_data' retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:35:10.590+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:35:10.590+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-19T17:35:10.604+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:35:10.604+0000] {dag.py:3947} INFO - Setting next_dagrun for ingest_brewery_data to 2024-07-18 00:00:00+00:00, run_after=2024-07-19 00:00:00+00:00
+[2024-07-19T17:35:10.617+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.401 seconds
+[2024-07-19T17:35:40.757+0000] {processor.py:161} INFO - Started process (PID=403) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:35:40.758+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:35:40.759+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:35:40.758+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:35:41.089+0000] {processor.py:840} INFO - DAG(s) 'ingest_brewery_data' retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:35:41.103+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:35:41.103+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-19T17:35:41.115+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:35:41.115+0000] {dag.py:3947} INFO - Setting next_dagrun for ingest_brewery_data to 2024-07-18 00:00:00+00:00, run_after=2024-07-19 00:00:00+00:00
+[2024-07-19T17:35:41.127+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.373 seconds
+[2024-07-19T17:36:11.256+0000] {processor.py:161} INFO - Started process (PID=411) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:36:11.256+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:36:11.257+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:36:11.257+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:36:11.589+0000] {processor.py:840} INFO - DAG(s) 'ingest_brewery_data' retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:36:11.603+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:36:11.602+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-19T17:36:11.614+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:36:11.614+0000] {dag.py:3947} INFO - Setting next_dagrun for ingest_brewery_data to 2024-07-18 00:00:00+00:00, run_after=2024-07-19 00:00:00+00:00
+[2024-07-19T17:36:11.625+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.373 seconds
+[2024-07-19T17:36:41.753+0000] {processor.py:161} INFO - Started process (PID=419) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:36:41.754+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:36:41.754+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:36:41.754+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:36:42.105+0000] {processor.py:840} INFO - DAG(s) 'ingest_brewery_data' retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:36:42.119+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:36:42.119+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-19T17:36:42.131+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:36:42.131+0000] {dag.py:3947} INFO - Setting next_dagrun for ingest_brewery_data to 2024-07-18 00:00:00+00:00, run_after=2024-07-19 00:00:00+00:00
+[2024-07-19T17:36:42.158+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.409 seconds
+[2024-07-19T17:37:12.297+0000] {processor.py:161} INFO - Started process (PID=427) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:37:12.298+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:37:12.299+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:37:12.298+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:37:12.681+0000] {processor.py:840} INFO - DAG(s) 'ingest_brewery_data' retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:37:12.697+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:37:12.696+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-19T17:37:12.710+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:37:12.710+0000] {dag.py:3947} INFO - Setting next_dagrun for ingest_brewery_data to 2024-07-18 00:00:00+00:00, run_after=2024-07-19 00:00:00+00:00
+[2024-07-19T17:37:12.722+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.430 seconds
+[2024-07-19T17:37:42.855+0000] {processor.py:161} INFO - Started process (PID=435) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:37:42.856+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:37:42.857+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:37:42.856+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:37:43.211+0000] {processor.py:840} INFO - DAG(s) 'ingest_brewery_data' retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:37:43.228+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:37:43.227+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-19T17:37:43.243+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:37:43.243+0000] {dag.py:3947} INFO - Setting next_dagrun for ingest_brewery_data to 2024-07-18 00:00:00+00:00, run_after=2024-07-19 00:00:00+00:00
+[2024-07-19T17:37:43.262+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.410 seconds
+[2024-07-19T17:38:13.395+0000] {processor.py:161} INFO - Started process (PID=443) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:38:13.396+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:38:13.397+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:38:13.396+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:38:13.761+0000] {processor.py:840} INFO - DAG(s) 'ingest_brewery_data' retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:38:13.777+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:38:13.776+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-19T17:38:13.789+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:38:13.789+0000] {dag.py:3947} INFO - Setting next_dagrun for ingest_brewery_data to 2024-07-18 00:00:00+00:00, run_after=2024-07-19 00:00:00+00:00
+[2024-07-19T17:38:13.811+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.419 seconds
+[2024-07-19T17:38:43.944+0000] {processor.py:161} INFO - Started process (PID=451) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:38:43.945+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:38:43.946+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:38:43.945+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:38:44.363+0000] {processor.py:840} INFO - DAG(s) 'ingest_brewery_data' retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:38:44.377+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:38:44.377+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-19T17:38:44.390+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:38:44.389+0000] {dag.py:3947} INFO - Setting next_dagrun for ingest_brewery_data to 2024-07-18 00:00:00+00:00, run_after=2024-07-19 00:00:00+00:00
+[2024-07-19T17:38:44.406+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.465 seconds
+[2024-07-19T17:38:45.964+0000] {processor.py:161} INFO - Started process (PID=453) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:38:45.965+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:38:45.965+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:38:45.965+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:38:46.351+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:38:46.359+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.398 seconds
+[2024-07-19T17:39:16.491+0000] {processor.py:161} INFO - Started process (PID=467) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:39:16.492+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:39:16.493+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:39:16.492+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:39:16.873+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:39:16.882+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.394 seconds
+[2024-07-19T17:39:22.527+0000] {processor.py:161} INFO - Started process (PID=469) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:39:22.527+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:39:22.528+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:39:22.528+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:39:22.992+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:39:23.001+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.479 seconds
+[2024-07-19T17:39:53.054+0000] {processor.py:161} INFO - Started process (PID=477) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:39:53.055+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:39:53.056+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:39:53.055+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:39:53.622+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:39:53.631+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.580 seconds
+[2024-07-19T17:40:23.768+0000] {processor.py:161} INFO - Started process (PID=485) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:40:23.769+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:40:23.769+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:40:23.769+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:40:24.188+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:40:24.196+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.432 seconds
+[2024-07-19T17:40:51.878+0000] {processor.py:161} INFO - Started process (PID=493) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:40:51.878+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:40:51.879+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:40:51.879+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:41:21.885+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:41:21.884+0000] {timeout.py:68} ERROR - Process timed out, PID: 493
+[2024-07-19T17:41:52.032+0000] {processor.py:161} INFO - Started process (PID=507) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:41:52.033+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:41:52.033+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:41:52.033+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:42:22.039+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:42:22.039+0000] {timeout.py:68} ERROR - Process timed out, PID: 507
+[2024-07-19T17:42:52.182+0000] {processor.py:161} INFO - Started process (PID=521) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:42:52.182+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:42:52.183+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:42:52.183+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:42:58.910+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:42:58.918+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 6.740 seconds
+[2024-07-19T17:43:01.821+0000] {processor.py:161} INFO - Started process (PID=523) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:43:01.821+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:43:01.822+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:43:01.822+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:43:08.678+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:43:08.686+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 6.870 seconds
+[2024-07-19T17:43:38.823+0000] {processor.py:161} INFO - Started process (PID=531) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:43:38.824+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:43:38.824+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:43:38.824+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:43:46.095+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:43:46.103+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 7.283 seconds
+[2024-07-19T17:44:16.203+0000] {processor.py:161} INFO - Started process (PID=539) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:44:16.203+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:44:16.204+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:44:16.204+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:44:23.251+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:44:23.258+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 7.059 seconds
+[2024-07-19T17:44:53.355+0000] {processor.py:161} INFO - Started process (PID=553) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:44:53.356+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:44:53.357+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:44:53.356+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:45:00.460+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:45:00.468+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 7.116 seconds
+[2024-07-19T17:45:30.505+0000] {processor.py:161} INFO - Started process (PID=561) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:45:30.506+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:45:30.506+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:45:30.506+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:45:37.203+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:45:37.210+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 6.709 seconds
+[2024-07-19T17:46:04.339+0000] {processor.py:161} INFO - Started process (PID=569) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:46:04.339+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:46:04.340+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:46:04.340+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:46:11.116+0000] {logging_mixin.py:188} INFO -                                         id  ...                             street
+0     5128df48-79fc-4f0f-8b52-d06be54d0cec  ...                     1716 Topeka St
+1     9c5a66c8-cc13-416f-a5d9-0a769c87d318  ...              407 Radam Ln Ste F200
+2     34e8c68b-6146-453f-a4b9-1f6cd99a5ada  ...                8100 Washington Ave
+3     ef970757-fe42-416f-931d-722451f1f59c  ...                          1501 E St
+4     6d14b220-8926-4521-8d19-b98a2d6ec3db  ...                      62970 18th St
+...                                    ...  ...                                ...
+8252  57a70f5c-a995-4be1-949c-99244450940f  ...                 246-13, Isanpo-gil
+8253  64a4f65c-47a9-4d8e-ad2e-3cc898b9689c  ...         19, Hangang-daero 38ga-gil
+8254  a9541aa9-5c12-469b-8cbb-01fb5619cefc  ...  23, Geumganggongwon-ro 20beon-gil
+8255  6f317bdc-458e-466f-bd2a-9ab398d46631  ...         25, Pangyogongwon-ro 3-gil
+8256  a1308963-b966-49f7-8f84-97ba37775d14  ...                        65,Gowon-ro
+
+[8257 rows x 16 columns]
+[2024-07-19T17:46:11.117+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:46:11.124+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 6.789 seconds
+[2024-07-19T17:46:41.258+0000] {processor.py:161} INFO - Started process (PID=577) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:46:41.258+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:46:41.259+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:46:41.259+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:46:47.820+0000] {logging_mixin.py:188} INFO -                                         id  ...                             street
+0     5128df48-79fc-4f0f-8b52-d06be54d0cec  ...                     1716 Topeka St
+1     9c5a66c8-cc13-416f-a5d9-0a769c87d318  ...              407 Radam Ln Ste F200
+2     34e8c68b-6146-453f-a4b9-1f6cd99a5ada  ...                8100 Washington Ave
+3     ef970757-fe42-416f-931d-722451f1f59c  ...                          1501 E St
+4     6d14b220-8926-4521-8d19-b98a2d6ec3db  ...                      62970 18th St
+...                                    ...  ...                                ...
+8252  57a70f5c-a995-4be1-949c-99244450940f  ...                 246-13, Isanpo-gil
+8253  64a4f65c-47a9-4d8e-ad2e-3cc898b9689c  ...         19, Hangang-daero 38ga-gil
+8254  a9541aa9-5c12-469b-8cbb-01fb5619cefc  ...  23, Geumganggongwon-ro 20beon-gil
+8255  6f317bdc-458e-466f-bd2a-9ab398d46631  ...         25, Pangyogongwon-ro 3-gil
+8256  a1308963-b966-49f7-8f84-97ba37775d14  ...                        65,Gowon-ro
+
+[8257 rows x 16 columns]
+[2024-07-19T17:46:47.821+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:46:47.829+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 6.575 seconds
+[2024-07-19T17:47:17.972+0000] {processor.py:161} INFO - Started process (PID=591) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:47:17.972+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:47:17.973+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:47:17.973+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:47:24.805+0000] {logging_mixin.py:188} INFO -                                         id  ...                             street
+0     5128df48-79fc-4f0f-8b52-d06be54d0cec  ...                     1716 Topeka St
+1     9c5a66c8-cc13-416f-a5d9-0a769c87d318  ...              407 Radam Ln Ste F200
+2     34e8c68b-6146-453f-a4b9-1f6cd99a5ada  ...                8100 Washington Ave
+3     ef970757-fe42-416f-931d-722451f1f59c  ...                          1501 E St
+4     6d14b220-8926-4521-8d19-b98a2d6ec3db  ...                      62970 18th St
+...                                    ...  ...                                ...
+8252  57a70f5c-a995-4be1-949c-99244450940f  ...                 246-13, Isanpo-gil
+8253  64a4f65c-47a9-4d8e-ad2e-3cc898b9689c  ...         19, Hangang-daero 38ga-gil
+8254  a9541aa9-5c12-469b-8cbb-01fb5619cefc  ...  23, Geumganggongwon-ro 20beon-gil
+8255  6f317bdc-458e-466f-bd2a-9ab398d46631  ...         25, Pangyogongwon-ro 3-gil
+8256  a1308963-b966-49f7-8f84-97ba37775d14  ...                        65,Gowon-ro
+
+[8257 rows x 16 columns]
+[2024-07-19T17:47:24.806+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:47:24.813+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 6.845 seconds
+[2024-07-19T17:47:54.948+0000] {processor.py:161} INFO - Started process (PID=599) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:47:54.949+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:47:54.949+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:47:54.949+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:48:01.954+0000] {logging_mixin.py:188} INFO -                                         id  ...                             street
+0     5128df48-79fc-4f0f-8b52-d06be54d0cec  ...                     1716 Topeka St
+1     9c5a66c8-cc13-416f-a5d9-0a769c87d318  ...              407 Radam Ln Ste F200
+2     34e8c68b-6146-453f-a4b9-1f6cd99a5ada  ...                8100 Washington Ave
+3     ef970757-fe42-416f-931d-722451f1f59c  ...                          1501 E St
+4     6d14b220-8926-4521-8d19-b98a2d6ec3db  ...                      62970 18th St
+...                                    ...  ...                                ...
+8252  57a70f5c-a995-4be1-949c-99244450940f  ...                 246-13, Isanpo-gil
+8253  64a4f65c-47a9-4d8e-ad2e-3cc898b9689c  ...         19, Hangang-daero 38ga-gil
+8254  a9541aa9-5c12-469b-8cbb-01fb5619cefc  ...  23, Geumganggongwon-ro 20beon-gil
+8255  6f317bdc-458e-466f-bd2a-9ab398d46631  ...         25, Pangyogongwon-ro 3-gil
+8256  a1308963-b966-49f7-8f84-97ba37775d14  ...                        65,Gowon-ro
+
+[8257 rows x 16 columns]
+[2024-07-19T17:48:01.954+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:48:01.962+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 7.018 seconds
+[2024-07-19T17:48:32.094+0000] {processor.py:161} INFO - Started process (PID=607) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:48:32.094+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:48:32.095+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:48:32.095+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:48:38.757+0000] {logging_mixin.py:188} INFO -                                         id  ...                             street
+0     5128df48-79fc-4f0f-8b52-d06be54d0cec  ...                     1716 Topeka St
+1     9c5a66c8-cc13-416f-a5d9-0a769c87d318  ...              407 Radam Ln Ste F200
+2     34e8c68b-6146-453f-a4b9-1f6cd99a5ada  ...                8100 Washington Ave
+3     ef970757-fe42-416f-931d-722451f1f59c  ...                          1501 E St
+4     6d14b220-8926-4521-8d19-b98a2d6ec3db  ...                      62970 18th St
+...                                    ...  ...                                ...
+8252  57a70f5c-a995-4be1-949c-99244450940f  ...                 246-13, Isanpo-gil
+8253  64a4f65c-47a9-4d8e-ad2e-3cc898b9689c  ...         19, Hangang-daero 38ga-gil
+8254  a9541aa9-5c12-469b-8cbb-01fb5619cefc  ...  23, Geumganggongwon-ro 20beon-gil
+8255  6f317bdc-458e-466f-bd2a-9ab398d46631  ...         25, Pangyogongwon-ro 3-gil
+8256  a1308963-b966-49f7-8f84-97ba37775d14  ...                        65,Gowon-ro
+
+[8257 rows x 16 columns]
+[2024-07-19T17:48:38.758+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:48:38.765+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 6.674 seconds
+[2024-07-19T17:49:08.897+0000] {processor.py:161} INFO - Started process (PID=615) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:49:08.898+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:49:08.899+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:49:08.898+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:49:15.536+0000] {logging_mixin.py:188} INFO -                                         id  ...                             street
+0     5128df48-79fc-4f0f-8b52-d06be54d0cec  ...                     1716 Topeka St
+1     9c5a66c8-cc13-416f-a5d9-0a769c87d318  ...              407 Radam Ln Ste F200
+2     34e8c68b-6146-453f-a4b9-1f6cd99a5ada  ...                8100 Washington Ave
+3     ef970757-fe42-416f-931d-722451f1f59c  ...                          1501 E St
+4     6d14b220-8926-4521-8d19-b98a2d6ec3db  ...                      62970 18th St
+...                                    ...  ...                                ...
+8252  57a70f5c-a995-4be1-949c-99244450940f  ...                 246-13, Isanpo-gil
+8253  64a4f65c-47a9-4d8e-ad2e-3cc898b9689c  ...         19, Hangang-daero 38ga-gil
+8254  a9541aa9-5c12-469b-8cbb-01fb5619cefc  ...  23, Geumganggongwon-ro 20beon-gil
+8255  6f317bdc-458e-466f-bd2a-9ab398d46631  ...         25, Pangyogongwon-ro 3-gil
+8256  a1308963-b966-49f7-8f84-97ba37775d14  ...                        65,Gowon-ro
+
+[8257 rows x 16 columns]
+[2024-07-19T17:49:15.537+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:49:15.544+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 6.650 seconds
+[2024-07-19T17:49:45.679+0000] {processor.py:161} INFO - Started process (PID=623) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:49:45.679+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:49:45.680+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:49:45.680+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:49:52.269+0000] {logging_mixin.py:188} INFO -                                         id  ...                             street
+0     5128df48-79fc-4f0f-8b52-d06be54d0cec  ...                     1716 Topeka St
+1     9c5a66c8-cc13-416f-a5d9-0a769c87d318  ...              407 Radam Ln Ste F200
+2     34e8c68b-6146-453f-a4b9-1f6cd99a5ada  ...                8100 Washington Ave
+3     ef970757-fe42-416f-931d-722451f1f59c  ...                          1501 E St
+4     6d14b220-8926-4521-8d19-b98a2d6ec3db  ...                      62970 18th St
+...                                    ...  ...                                ...
+8252  57a70f5c-a995-4be1-949c-99244450940f  ...                 246-13, Isanpo-gil
+8253  64a4f65c-47a9-4d8e-ad2e-3cc898b9689c  ...         19, Hangang-daero 38ga-gil
+8254  a9541aa9-5c12-469b-8cbb-01fb5619cefc  ...  23, Geumganggongwon-ro 20beon-gil
+8255  6f317bdc-458e-466f-bd2a-9ab398d46631  ...         25, Pangyogongwon-ro 3-gil
+8256  a1308963-b966-49f7-8f84-97ba37775d14  ...                        65,Gowon-ro
+
+[8257 rows x 16 columns]
+[2024-07-19T17:49:52.270+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:49:52.277+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 6.602 seconds
+[2024-07-19T17:50:22.412+0000] {processor.py:161} INFO - Started process (PID=637) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:50:22.412+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:50:22.413+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:50:22.413+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:50:29.089+0000] {logging_mixin.py:188} INFO -                                         id  ...                             street
+0     5128df48-79fc-4f0f-8b52-d06be54d0cec  ...                     1716 Topeka St
+1     9c5a66c8-cc13-416f-a5d9-0a769c87d318  ...              407 Radam Ln Ste F200
+2     34e8c68b-6146-453f-a4b9-1f6cd99a5ada  ...                8100 Washington Ave
+3     ef970757-fe42-416f-931d-722451f1f59c  ...                          1501 E St
+4     6d14b220-8926-4521-8d19-b98a2d6ec3db  ...                      62970 18th St
+...                                    ...  ...                                ...
+8252  57a70f5c-a995-4be1-949c-99244450940f  ...                 246-13, Isanpo-gil
+8253  64a4f65c-47a9-4d8e-ad2e-3cc898b9689c  ...         19, Hangang-daero 38ga-gil
+8254  a9541aa9-5c12-469b-8cbb-01fb5619cefc  ...  23, Geumganggongwon-ro 20beon-gil
+8255  6f317bdc-458e-466f-bd2a-9ab398d46631  ...         25, Pangyogongwon-ro 3-gil
+8256  a1308963-b966-49f7-8f84-97ba37775d14  ...                        65,Gowon-ro
+
+[8257 rows x 16 columns]
+[2024-07-19T17:50:29.089+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:50:29.097+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 6.688 seconds
+[2024-07-19T17:50:59.221+0000] {processor.py:161} INFO - Started process (PID=645) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:50:59.221+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:50:59.222+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:50:59.222+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:51:06.036+0000] {logging_mixin.py:188} INFO -                                         id  ...                             street
+0     5128df48-79fc-4f0f-8b52-d06be54d0cec  ...                     1716 Topeka St
+1     9c5a66c8-cc13-416f-a5d9-0a769c87d318  ...              407 Radam Ln Ste F200
+2     34e8c68b-6146-453f-a4b9-1f6cd99a5ada  ...                8100 Washington Ave
+3     ef970757-fe42-416f-931d-722451f1f59c  ...                          1501 E St
+4     6d14b220-8926-4521-8d19-b98a2d6ec3db  ...                      62970 18th St
+...                                    ...  ...                                ...
+8252  57a70f5c-a995-4be1-949c-99244450940f  ...                 246-13, Isanpo-gil
+8253  64a4f65c-47a9-4d8e-ad2e-3cc898b9689c  ...         19, Hangang-daero 38ga-gil
+8254  a9541aa9-5c12-469b-8cbb-01fb5619cefc  ...  23, Geumganggongwon-ro 20beon-gil
+8255  6f317bdc-458e-466f-bd2a-9ab398d46631  ...         25, Pangyogongwon-ro 3-gil
+8256  a1308963-b966-49f7-8f84-97ba37775d14  ...                        65,Gowon-ro
+
+[8257 rows x 16 columns]
+[2024-07-19T17:51:06.037+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:51:06.044+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 6.828 seconds
+[2024-07-19T17:51:36.104+0000] {processor.py:161} INFO - Started process (PID=653) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:51:36.105+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:51:36.105+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:51:36.105+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:51:42.801+0000] {logging_mixin.py:188} INFO -                                         id  ...                             street
+0     5128df48-79fc-4f0f-8b52-d06be54d0cec  ...                     1716 Topeka St
+1     9c5a66c8-cc13-416f-a5d9-0a769c87d318  ...              407 Radam Ln Ste F200
+2     34e8c68b-6146-453f-a4b9-1f6cd99a5ada  ...                8100 Washington Ave
+3     ef970757-fe42-416f-931d-722451f1f59c  ...                          1501 E St
+4     6d14b220-8926-4521-8d19-b98a2d6ec3db  ...                      62970 18th St
+...                                    ...  ...                                ...
+8252  57a70f5c-a995-4be1-949c-99244450940f  ...                 246-13, Isanpo-gil
+8253  64a4f65c-47a9-4d8e-ad2e-3cc898b9689c  ...         19, Hangang-daero 38ga-gil
+8254  a9541aa9-5c12-469b-8cbb-01fb5619cefc  ...  23, Geumganggongwon-ro 20beon-gil
+8255  6f317bdc-458e-466f-bd2a-9ab398d46631  ...         25, Pangyogongwon-ro 3-gil
+8256  a1308963-b966-49f7-8f84-97ba37775d14  ...                        65,Gowon-ro
+
+[8257 rows x 16 columns]
+[2024-07-19T17:51:42.801+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:51:42.808+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 6.709 seconds
+[2024-07-19T17:52:12.941+0000] {processor.py:161} INFO - Started process (PID=661) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:52:12.942+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:52:12.943+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:52:12.942+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:52:19.870+0000] {logging_mixin.py:188} INFO -                                         id  ...                             street
+0     5128df48-79fc-4f0f-8b52-d06be54d0cec  ...                     1716 Topeka St
+1     9c5a66c8-cc13-416f-a5d9-0a769c87d318  ...              407 Radam Ln Ste F200
+2     34e8c68b-6146-453f-a4b9-1f6cd99a5ada  ...                8100 Washington Ave
+3     ef970757-fe42-416f-931d-722451f1f59c  ...                          1501 E St
+4     6d14b220-8926-4521-8d19-b98a2d6ec3db  ...                      62970 18th St
+...                                    ...  ...                                ...
+8252  57a70f5c-a995-4be1-949c-99244450940f  ...                 246-13, Isanpo-gil
+8253  64a4f65c-47a9-4d8e-ad2e-3cc898b9689c  ...         19, Hangang-daero 38ga-gil
+8254  a9541aa9-5c12-469b-8cbb-01fb5619cefc  ...  23, Geumganggongwon-ro 20beon-gil
+8255  6f317bdc-458e-466f-bd2a-9ab398d46631  ...         25, Pangyogongwon-ro 3-gil
+8256  a1308963-b966-49f7-8f84-97ba37775d14  ...                        65,Gowon-ro
+
+[8257 rows x 16 columns]
+[2024-07-19T17:52:19.871+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:52:19.878+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 6.941 seconds
+[2024-07-19T17:52:50.013+0000] {processor.py:161} INFO - Started process (PID=675) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:52:50.014+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:52:50.014+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:52:50.014+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:52:56.756+0000] {logging_mixin.py:188} INFO -                                         id  ...                             street
+0     5128df48-79fc-4f0f-8b52-d06be54d0cec  ...                     1716 Topeka St
+1     9c5a66c8-cc13-416f-a5d9-0a769c87d318  ...              407 Radam Ln Ste F200
+2     34e8c68b-6146-453f-a4b9-1f6cd99a5ada  ...                8100 Washington Ave
+3     ef970757-fe42-416f-931d-722451f1f59c  ...                          1501 E St
+4     6d14b220-8926-4521-8d19-b98a2d6ec3db  ...                      62970 18th St
+...                                    ...  ...                                ...
+8252  57a70f5c-a995-4be1-949c-99244450940f  ...                 246-13, Isanpo-gil
+8253  64a4f65c-47a9-4d8e-ad2e-3cc898b9689c  ...         19, Hangang-daero 38ga-gil
+8254  a9541aa9-5c12-469b-8cbb-01fb5619cefc  ...  23, Geumganggongwon-ro 20beon-gil
+8255  6f317bdc-458e-466f-bd2a-9ab398d46631  ...         25, Pangyogongwon-ro 3-gil
+8256  a1308963-b966-49f7-8f84-97ba37775d14  ...                        65,Gowon-ro
+
+[8257 rows x 16 columns]
+[2024-07-19T17:52:56.757+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:52:56.764+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 6.755 seconds
+[2024-07-19T17:53:26.894+0000] {processor.py:161} INFO - Started process (PID=683) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:53:26.894+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:53:26.895+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:53:26.895+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:53:33.513+0000] {logging_mixin.py:188} INFO -                                         id  ...                             street
+0     5128df48-79fc-4f0f-8b52-d06be54d0cec  ...                     1716 Topeka St
+1     9c5a66c8-cc13-416f-a5d9-0a769c87d318  ...              407 Radam Ln Ste F200
+2     34e8c68b-6146-453f-a4b9-1f6cd99a5ada  ...                8100 Washington Ave
+3     ef970757-fe42-416f-931d-722451f1f59c  ...                          1501 E St
+4     6d14b220-8926-4521-8d19-b98a2d6ec3db  ...                      62970 18th St
+...                                    ...  ...                                ...
+8252  57a70f5c-a995-4be1-949c-99244450940f  ...                 246-13, Isanpo-gil
+8253  64a4f65c-47a9-4d8e-ad2e-3cc898b9689c  ...         19, Hangang-daero 38ga-gil
+8254  a9541aa9-5c12-469b-8cbb-01fb5619cefc  ...  23, Geumganggongwon-ro 20beon-gil
+8255  6f317bdc-458e-466f-bd2a-9ab398d46631  ...         25, Pangyogongwon-ro 3-gil
+8256  a1308963-b966-49f7-8f84-97ba37775d14  ...                        65,Gowon-ro
+
+[8257 rows x 16 columns]
+[2024-07-19T17:53:33.514+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:53:33.521+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 6.631 seconds
+[2024-07-19T17:53:51.613+0000] {processor.py:161} INFO - Started process (PID=691) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:53:51.614+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:53:51.615+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:53:51.615+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:53:51.627+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:53:51.626+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/rotina_principal.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rotina_principal.py", line 95
+    return None
+    ^^^^^^^^^^^
+SyntaxError: 'return' outside function
+[2024-07-19T17:53:51.628+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:53:51.642+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.032 seconds
+[2024-07-19T17:54:21.739+0000] {processor.py:161} INFO - Started process (PID=698) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:54:21.740+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:54:21.740+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:54:21.740+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:54:21.751+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:54:21.751+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/rotina_principal.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rotina_principal.py", line 95
+    return None
+    ^^^^^^^^^^^
+SyntaxError: 'return' outside function
+[2024-07-19T17:54:21.752+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:54:21.777+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.041 seconds
+[2024-07-19T17:54:51.867+0000] {processor.py:161} INFO - Started process (PID=705) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:54:51.868+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:54:51.869+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:54:51.868+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:54:51.886+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:54:51.885+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/rotina_principal.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rotina_principal.py", line 95
+    return None
+    ^^^^^^^^^^^
+SyntaxError: 'return' outside function
+[2024-07-19T17:54:51.886+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:54:51.918+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.054 seconds
+[2024-07-19T17:55:02.928+0000] {processor.py:161} INFO - Started process (PID=706) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:55:02.928+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:55:02.929+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:55:02.929+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:55:09.695+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:55:09.691+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/rotina_principal.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rotina_principal.py", line 101, in <module>
+    df.to_csv(local_csv_path, index=False)
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/core/generic.py", line 3902, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/formats/format.py", line 1152, in to_csv
+    csv_formatter.save()
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/formats/csvs.py", line 247, in save
+    with get_handle(
+         ^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/common.py", line 739, in get_handle
+    check_parent_directory(str(handle))
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/common.py", line 604, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: '/landing_zone'
+[2024-07-19T17:55:09.696+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:55:09.707+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 6.783 seconds
+[2024-07-19T17:55:39.846+0000] {processor.py:161} INFO - Started process (PID=715) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:55:39.846+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:55:39.847+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:55:39.847+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:55:46.544+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:55:46.539+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/rotina_principal.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rotina_principal.py", line 101, in <module>
+    df.to_csv(local_csv_path, index=False)
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/core/generic.py", line 3902, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/formats/format.py", line 1152, in to_csv
+    csv_formatter.save()
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/formats/csvs.py", line 247, in save
+    with get_handle(
+         ^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/common.py", line 739, in get_handle
+    check_parent_directory(str(handle))
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/common.py", line 604, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: '/landing_zone'
+[2024-07-19T17:55:46.544+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:55:46.554+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 6.713 seconds
+[2024-07-19T17:56:16.691+0000] {processor.py:161} INFO - Started process (PID=723) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:56:16.691+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:56:16.692+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:56:16.692+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:56:23.252+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:56:23.248+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/rotina_principal.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rotina_principal.py", line 101, in <module>
+    df.to_csv(local_csv_path, index=False)
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/core/generic.py", line 3902, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/formats/format.py", line 1152, in to_csv
+    csv_formatter.save()
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/formats/csvs.py", line 247, in save
+    with get_handle(
+         ^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/common.py", line 739, in get_handle
+    check_parent_directory(str(handle))
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/common.py", line 604, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: '/landing_zone'
+[2024-07-19T17:56:23.253+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:56:23.263+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 6.576 seconds
+[2024-07-19T17:56:53.368+0000] {processor.py:161} INFO - Started process (PID=737) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:56:53.368+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-19T17:56:53.369+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:56:53.369+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:57:00.127+0000] {logging_mixin.py:188} INFO - [2024-07-19T17:57:00.121+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/rotina_principal.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rotina_principal.py", line 101, in <module>
+    df.to_csv(local_csv_path, index=False)
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/core/generic.py", line 3902, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/formats/format.py", line 1152, in to_csv
+    csv_formatter.save()
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/formats/csvs.py", line 247, in save
+    with get_handle(
+         ^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/common.py", line 739, in get_handle
+    check_parent_directory(str(handle))
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/common.py", line 604, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: '/landing_zone'
+[2024-07-19T17:57:00.128+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-19T17:57:00.153+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 6.789 seconds

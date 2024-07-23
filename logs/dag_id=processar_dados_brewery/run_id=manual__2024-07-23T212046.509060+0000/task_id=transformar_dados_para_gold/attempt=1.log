@@ -1,0 +1,32 @@
+[2024-07-23T21:21:01.769+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-07-23T21:21:01.780+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: processar_dados_brewery.transformar_dados_para_gold manual__2024-07-23T21:20:46.509060+00:00 [queued]>
+[2024-07-23T21:21:01.785+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: processar_dados_brewery.transformar_dados_para_gold manual__2024-07-23T21:20:46.509060+00:00 [queued]>
+[2024-07-23T21:21:01.786+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2024-07-23T21:21:01.795+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): transformar_dados_para_gold> on 2024-07-23 21:20:46.509060+00:00
+[2024-07-23T21:21:01.799+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:62: DeprecationWarning: This process (pid=1720) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-07-23T21:21:01.800+0000] {standard_task_runner.py:64} INFO - Started process 1722 to run task
+[2024-07-23T21:21:01.800+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'processar_dados_brewery', 'transformar_dados_para_gold', 'manual__2024-07-23T21:20:46.509060+00:00', '--job-id', '81', '--raw', '--subdir', 'DAGS_FOLDER/rotina_principal.py', '--cfg-path', '/tmp/tmpo2_8cev6']
+[2024-07-23T21:21:01.802+0000] {standard_task_runner.py:91} INFO - Job 81: Subtask transformar_dados_para_gold
+[2024-07-23T21:21:01.831+0000] {task_command.py:426} INFO - Running <TaskInstance: processar_dados_brewery.transformar_dados_para_gold manual__2024-07-23T21:20:46.509060+00:00 [running]> on host 84773d6c55d8
+[2024-07-23T21:21:01.891+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='processar_dados_brewery' AIRFLOW_CTX_TASK_ID='transformar_dados_para_gold' AIRFLOW_CTX_EXECUTION_DATE='2024-07-23T21:20:46.509060+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-07-23T21:20:46.509060+00:00'
+[2024-07-23T21:21:01.892+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-07-23T21:21:01.901+0000] {logging_mixin.py:188} INFO - ----------------------------
+[2024-07-23T21:21:01.901+0000] {logging_mixin.py:188} INFO - Etapa: Transformação dos dados para Gold
+[2024-07-23T21:21:01.906+0000] {logging_mixin.py:188} INFO - Diretório do datalake: /opt/***/datalake
+[2024-07-23T21:21:01.906+0000] {logging_mixin.py:188} INFO - Diretório da silver zone: /opt/***/datalake/silver
+[2024-07-23T21:21:01.907+0000] {logging_mixin.py:188} INFO - Diretório da gold zone: /opt/***/datalake/gold
+[2024-07-23T21:21:08.273+0000] {logging_mixin.py:188} INFO - Dados lidos da silver zone
+[2024-07-23T21:21:08.273+0000] {logging_mixin.py:188} INFO - Realizando agregação dos dados
+[2024-07-23T21:21:08.276+0000] {warnings.py:112} WARNING - /opt/***/dags/datalake_functions.py:198: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  df_gold = df.groupby(['estado', 'tipo_cervejaria']).size().reset_index(name='count')
+
+[2024-07-23T21:21:08.297+0000] {logging_mixin.py:188} INFO - Dados agregados salvos em: /opt/***/datalake/gold/brewery_data_gold.parquet
+[2024-07-23T21:21:08.297+0000] {logging_mixin.py:188} INFO - ----------------------------
+[2024-07-23T21:21:08.299+0000] {python.py:237} INFO - Done. Returned value was: None
+[2024-07-23T21:21:08.300+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-07-23T21:21:08.306+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=processar_dados_brewery, task_id=transformar_dados_para_gold, run_id=manual__2024-07-23T21:20:46.509060+00:00, execution_date=20240723T212046, start_date=20240723T212101, end_date=20240723T212108
+[2024-07-23T21:21:08.338+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2024-07-23T21:21:08.349+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-07-23T21:21:08.350+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

@@ -1,0 +1,48 @@
+[2024-07-22T22:39:14.361+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-07-22T22:39:14.380+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: execute_databricks_workflow.fetch_and_upload_brewery_data scheduled__2024-07-21T00:00:00+00:00 [queued]>
+[2024-07-22T22:39:14.385+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: execute_databricks_workflow.fetch_and_upload_brewery_data scheduled__2024-07-21T00:00:00+00:00 [queued]>
+[2024-07-22T22:39:14.386+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2024-07-22T22:39:14.393+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): fetch_and_upload_brewery_data> on 2024-07-21 00:00:00+00:00
+[2024-07-22T22:39:14.398+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:62: DeprecationWarning: This process (pid=60) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-07-22T22:39:14.399+0000] {standard_task_runner.py:64} INFO - Started process 69 to run task
+[2024-07-22T22:39:14.399+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'execute_databricks_workflow', 'fetch_and_upload_brewery_data', 'scheduled__2024-07-21T00:00:00+00:00', '--job-id', '30', '--raw', '--subdir', 'DAGS_FOLDER/rotina_principal.py', '--cfg-path', '/tmp/tmpebfvyqae']
+[2024-07-22T22:39:14.400+0000] {standard_task_runner.py:91} INFO - Job 30: Subtask fetch_and_upload_brewery_data
+[2024-07-22T22:39:14.428+0000] {task_command.py:426} INFO - Running <TaskInstance: execute_databricks_workflow.fetch_and_upload_brewery_data scheduled__2024-07-21T00:00:00+00:00 [running]> on host 9e302175f1ce
+[2024-07-22T22:39:14.486+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='execute_databricks_workflow' AIRFLOW_CTX_TASK_ID='fetch_and_upload_brewery_data' AIRFLOW_CTX_EXECUTION_DATE='2024-07-21T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-07-21T00:00:00+00:00'
+[2024-07-22T22:39:14.487+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-07-22T22:40:30.288+0000] {logging_mixin.py:188} INFO - Dados salvos localmente em: /opt/***/landing_zone/brewery_data.json
+[2024-07-22T22:40:30.308+0000] {_universal.py:510} INFO - Request URL: 'https://datelakemedallionlayer.blob.core.windows.net/row/brewery_data.json'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '3514404'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.20.0 Python/3.12.4 (Linux-5.15.153.1-microsoft-standard-WSL2-x86_64-with-glibc2.36)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '661c52ee-487b-11ef-a4bc-0242ac120006'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+[2024-07-22T22:40:32.737+0000] {_universal.py:549} INFO - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Mon, 22 Jul 2024 22:40:32 GMT'
+    'ETag': '"0x8DCAA9F4B850481"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'f50c5945-401e-0015-1688-dc40b1000000'
+    'x-ms-client-request-id': '661c52ee-487b-11ef-a4bc-0242ac120006'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Mon, 22 Jul 2024 22:40:31 GMT'
+[2024-07-22T22:40:32.738+0000] {logging_mixin.py:188} INFO - Dados da API foram salvos no Blob Storage com sucesso!
+[2024-07-22T22:40:32.756+0000] {python.py:237} INFO - Done. Returned value was: None
+[2024-07-22T22:40:32.757+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-07-22T22:40:32.764+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=execute_databricks_workflow, task_id=fetch_and_upload_brewery_data, run_id=scheduled__2024-07-21T00:00:00+00:00, execution_date=20240721T000000, start_date=20240722T223914, end_date=20240722T224032
+[2024-07-22T22:40:32.787+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2024-07-22T22:40:32.800+0000] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-07-22T22:40:32.804+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
