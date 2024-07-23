@@ -4,11 +4,18 @@ import os
 import re
 from airflow.models import Variable
 
+def criar_diretorio_se_nao_existir(diretorio):
+    if not os.path.exists(diretorio):
+        os.makedirs(diretorio)
+
 def buscar_e_salvar_dados_brewery():
     # Definir variáveis
     datalake_path = Variable.get("datalake_path", default_var="/opt/airflow/datalake")
     landing_zone_path = os.path.join(datalake_path, "landing_zone")
-    os.makedirs(landing_zone_path, exist_ok=True)
+
+    # Criar diretórios se não existirem
+    criar_diretorio_se_nao_existir(datalake_path)
+    criar_diretorio_se_nao_existir(landing_zone_path)
 
     # Buscar dados da API
     url_base = "https://api.openbrewerydb.org/breweries"
@@ -60,7 +67,10 @@ def transformar_dados_para_silver():
     datalake_path = Variable.get("datalake_path", default_var="/opt/airflow/datalake")
     landing_zone_path = os.path.join(datalake_path, "landing_zone")
     silver_zone_path = os.path.join(datalake_path, "silver")
-    os.makedirs(silver_zone_path, exist_ok=True)
+
+    # Criar diretórios se não existirem
+    criar_diretorio_se_nao_existir(datalake_path)
+    criar_diretorio_se_nao_existir(silver_zone_path)
 
     # Ler dados da landing zone
     local_json_path = os.path.join(landing_zone_path, 'brewery_data.json')
@@ -134,7 +144,10 @@ def transformar_dados_para_gold():
     datalake_path = Variable.get("datalake_path", default_var="/opt/airflow/datalake")
     silver_zone_path = os.path.join(datalake_path, "silver")
     gold_zone_path = os.path.join(datalake_path, "gold")
-    os.makedirs(gold_zone_path, exist_ok=True)
+
+    # Criar diretórios se não existirem
+    criar_diretorio_se_nao_existir(datalake_path)
+    criar_diretorio_se_nao_existir(gold_zone_path)
 
     # Ler dados da silver zone
     silver_parquet_path = os.path.join(silver_zone_path, 'brewery_data_silver.parquet')
