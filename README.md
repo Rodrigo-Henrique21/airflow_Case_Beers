@@ -48,12 +48,7 @@ As variavéis de ambiente globais disponibilizadas pelo ambiente são acrescenta
 A airflow web disponibilizara variavéis de ambiente padrão em produção, conforme abaixo:
 
 ```
-databricks_token=token para acesso ao cluster datebricks
-databricks_instance=instancia do cluster
-azure_storage_connection_string=referente ao storage do azure
-email=referente ao email para qual ira ser enviado o log da execucao do databricks
-git_url=url do git do projeto
-
+não há necessidade de preenchimento das variaveis
 ```
 
 # Atenção ‼️
@@ -85,8 +80,11 @@ A estrutura do projeto é a seguinte:
     |-- dags
         |-- rotina_principal.py
     |-- docs
-    |-- landing_zone
-        |-- brewery_data.json
+    |-- datalake
+        |-- landing_zone
+            |-- brewery_data.json
+        |-- silver
+        |-- gold
     |-- logs
         |-- dag_id=execute_databricks_workflow
         |-- dag_id=simple_dag
