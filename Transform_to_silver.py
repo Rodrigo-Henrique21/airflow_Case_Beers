@@ -6,16 +6,19 @@ import pyspark.sql.functions as F
 from pyspark.sql.types import *
 import os
 
-
 # Define constantes e chaves de ambiente
 storage_account_name = os.environ['storage_account_name']
+container_name = "silver"
+mount_point = "/mnt/silver_data"
 
-# Envia ao spark
-spark.conf.set(f"fs.azure.account.key.{storage_account_name}.blob.core.windows.net", dbutils.secrets.get(scope="keyvault", key="keystorage"))
-
-# Criar sessão Spark se não existir
-if 'spark' not in locals():
-    spark = SparkSession.builder.appName("workflow_bricks").getOrCreate()
+# Verificar se o diretório já está montado
+if not any(mount.mountPoint == mount_point for mount in dbutils.fs.mounts()):
+    # Montar o Azure Blob Storage
+    dbutils.fs.mount(
+        source=f"wasbs://{container_name}@{storage_account_name}.blob.core.windows.net",
+        mount_point=mount_point,
+        extra_configs={f"fs.azure.account.key.{storage_account_name}.blob.core.windows.net": dbutils.secrets.get(scope="keyvault", key="keystorage")}
+    )
 
 # Criação do esquema 'silver' se não existir
 spark.sql("CREATE SCHEMA IF NOT EXISTS silver")
@@ -59,12 +62,13 @@ df_silver = \
                          )\
                              )\
                                  )\
-             .withColumn("cidade", F.trim(\
-                 F.lower(\
-                     F.col("cidade")\
-                         )\
+             .withColumn("cidade", F.regexp_replace(\
+                 F.trim(\
+                     F.lower(\
+                         F.col("cidade")\
                              )\
-                                 )\
+                                 ),"[^a-zA-Z0-9.,&\\s]+", "")\
+                                     )\
              .withColumn("provincia", F.trim(\
                  F.lower(\
                      F.col("provincia")\
@@ -77,12 +81,13 @@ df_silver = \
                          )\
                              )\
                                  )\
-             .withColumn("estado", F.trim(\
-                 F.lower(\
-                     F.col("estado")\
-                         )\
+             .withColumn("estado", F.regexp_replace(\
+                 F.trim(\
+                     F.lower(\
+                         F.col("estado")\
                              )\
-                                 )\
+                                 ),"[^a-zA-Z0-9.,&\\s]+", "")\
+                                     )\
              .withColumn("rua", F.trim(\
                  F.lower(\
                      F.col("rua")\
@@ -98,7 +103,6 @@ df_silver = \
                 'site': '-'
             })\
              .cache()
-             
 
 # Definir uma função para validar o formato da URL
 def valida_url(url):
@@ -151,4 +155,3 @@ df_silver.write\
             .mode("overwrite")\
                 .partitionBy("estado", "cidade")\
                     .saveAsTable("silver.brewery_data")
-

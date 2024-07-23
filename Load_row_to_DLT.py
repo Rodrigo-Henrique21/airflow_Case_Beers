@@ -2,9 +2,6 @@
 from pyspark.sql import SparkSession
 import os
 
-# Criar sessão Spark
-spark = SparkSession.builder.appName("workflow_bricks").getOrCreate()
-
 # Definir variáveis a partir das variáveis de ambiente
 storage_account_name = os.environ['storage_account_name']
 container_name = "row"
