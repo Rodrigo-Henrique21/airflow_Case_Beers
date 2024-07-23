@@ -9,7 +9,6 @@
 
 # COMMAND ----------
 
-# Databricks notebook source
 from pyspark.sql.window import Window
 import pyspark.sql.functions as F
 from pyspark.sql.types import *
@@ -18,10 +17,10 @@ import os
 # Criação do esquema 'silver' se não existir
 spark.sql("CREATE SCHEMA IF NOT EXISTS silver")
 
-# Ler os dados da tabela bronze
+# Lendo os dados da tabela bronze
 df_bronze = spark.table("bronze.brewery_data")
 
-# Realizar as transformações necessárias
+# transformações necessárias
 df_silver = \
     df_bronze.withColumnRenamed("id", "id")\
              .withColumnRenamed("name", "nome")\
@@ -99,7 +98,7 @@ df_silver = \
             })\
              .cache()
 
-# Definir uma função para validar o formato da URL
+# Definindo uma função para validar o formato da URL
 def valida_url(url):
     if url is None:
         return False, False
@@ -116,15 +115,15 @@ url_validacao_schema = StructType([
 
 valida_url_udf = F.udf(valida_url, url_validacao_schema)
 
-# Aplicar a validação e criar colunas de validação
+# Aplicando a validação e criar colunas de validação
 df_silver = df_silver.withColumn("validao_site", valida_url_udf(F.col("site")))
 df_silver = df_silver.withColumn("website_url_validacao", F.col("validao_site.valida_forma"))
 df_silver = df_silver.withColumn("indicador_seguranca_site", F.col("validao_site.indicador_seguranca_site"))
 
-# Definir a especificação de janela para substituição de URLs nulas
+# Definindo a especificação de janela para substituição de URLs nulas
 window_spec = Window.partitionBy("nome").orderBy(F.col("site").desc())
 
-# Substituir URLs nulas
+# Substituindo URLs nulas
 df_silver = df_silver.withColumn(
     "site",
     F.when(
@@ -133,7 +132,7 @@ df_silver = df_silver.withColumn(
     ).otherwise(F.col("site"))
 )
 
-# Ajustar URLs para garantir que estejam corretas
+# Ajustando URLs para garantir que estejam corretas
 df_silver = df_silver.withColumn(
     "site",
     F.when(
@@ -144,7 +143,7 @@ df_silver = df_silver.withColumn(
                     .cache()
 
 
-# Salvar como tabela Delta na camada Prata, particionado por estado e cidade
+# Salvando como tabela Delta na camada Prata, particionado por estado e cidade
 df_silver.write\
          .format("delta")\
             .mode("overwrite")\

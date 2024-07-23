@@ -8,13 +8,13 @@
 
 import os
 
-# Definir variáveis a partir das variáveis de ambiente
+# Definindo variáveis a partir das variáveis de ambiente
 storage_account_name = os.environ['storage_account_name']
 container_name = "row"
 file_path = "brewery_data.json"
 mount_point = "/mnt/bronze_data"
 
-# Verificar se o diretório já está montado
+# Verificando se o diretório já está montado
 if not any(mount.mountPoint == mount_point for mount in dbutils.fs.mounts()):
     # Montar o Azure Blob Storage
     dbutils.fs.mount(
@@ -26,8 +26,8 @@ if not any(mount.mountPoint == mount_point for mount in dbutils.fs.mounts()):
 # Criação do esquema 'bronze' se não existir
 spark.sql("CREATE SCHEMA IF NOT EXISTS bronze")
 
-# Ler o arquivo CSV da camada Bronze
+# Lendo o arquivo CSV da camada Bronze
 df = spark.read.json(f"{mount_point}/{file_path}")
 
-# Salvar como uma tabela Delta
+# Salva como uma tabela Delta
 df.write.format("delta").mode("overwrite").saveAsTable("bronze.brewery_data")
