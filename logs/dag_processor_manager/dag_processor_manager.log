@@ -5075,3 +5075,30 @@ File Path                              PID    Runtime      # DAGs    # Errors  L
 [2024-07-23T19:25:22.018+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
 [2024-07-23T19:25:22.019+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
 [2024-07-23T19:25:22.045+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2024-07-23T19:30:23.018+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2024-07-23T19:30:23.032+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2024-07-23T19:30:23.061+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/rotina_principal.py    108  0.00s             0           0
+================================================================================
+[2024-07-23T19:30:53.168+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rotina_principal.py                           1           0  1.16s           2024-07-23T19:30:24
+================================================================================
+[2024-07-23T19:31:23.399+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rotina_principal.py                           1           0  0.39s           2024-07-23T19:30:54
+================================================================================
+[2024-07-23T19:31:31.373+0000] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15

@@ -597,3 +597,28 @@
 [2024-07-23T00:42:24.488+0000] {logging_mixin.py:188} INFO - [2024-07-23T00:42:24.488+0000] {dag.py:3089} INFO - Sync 1 DAGs
 [2024-07-23T00:42:24.503+0000] {logging_mixin.py:188} INFO - [2024-07-23T00:42:24.503+0000] {dag.py:3947} INFO - Setting next_dagrun for executar_workflow_databricks to 2024-07-22 00:00:00+00:00, run_after=2024-07-23 00:00:00+00:00
 [2024-07-23T00:42:24.519+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.525 seconds
+[2024-07-23T19:30:23.069+0000] {processor.py:161} INFO - Started process (PID=108) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-23T19:30:23.070+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-23T19:30:23.071+0000] {logging_mixin.py:188} INFO - [2024-07-23T19:30:23.070+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-23T19:30:24.012+0000] {processor.py:840} INFO - DAG(s) 'processar_dados_brewery' retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-23T19:30:24.165+0000] {logging_mixin.py:188} INFO - [2024-07-23T19:30:24.164+0000] {override.py:1858} INFO - Created Permission View: can edit on DAG:processar_dados_brewery
+[2024-07-23T19:30:24.172+0000] {logging_mixin.py:188} INFO - [2024-07-23T19:30:24.172+0000] {override.py:1858} INFO - Created Permission View: can read on DAG:processar_dados_brewery
+[2024-07-23T19:30:24.177+0000] {logging_mixin.py:188} INFO - [2024-07-23T19:30:24.177+0000] {override.py:1858} INFO - Created Permission View: can delete on DAG:processar_dados_brewery
+[2024-07-23T19:30:24.177+0000] {logging_mixin.py:188} INFO - [2024-07-23T19:30:24.177+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-23T19:30:24.183+0000] {logging_mixin.py:188} INFO - [2024-07-23T19:30:24.183+0000] {dag.py:3111} INFO - Creating ORM DAG for processar_dados_brewery
+[2024-07-23T19:30:24.190+0000] {logging_mixin.py:188} INFO - [2024-07-23T19:30:24.189+0000] {dag.py:3947} INFO - Setting next_dagrun for processar_dados_brewery to 2024-07-22 00:00:00+00:00, run_after=2024-07-23 00:00:00+00:00
+[2024-07-23T19:30:24.202+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 1.136 seconds
+[2024-07-23T19:30:54.311+0000] {processor.py:161} INFO - Started process (PID=123) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-23T19:30:54.312+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-23T19:30:54.313+0000] {logging_mixin.py:188} INFO - [2024-07-23T19:30:54.313+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-23T19:30:54.617+0000] {processor.py:840} INFO - DAG(s) 'processar_dados_brewery' retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-23T19:30:54.638+0000] {logging_mixin.py:188} INFO - [2024-07-23T19:30:54.638+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-23T19:30:54.651+0000] {logging_mixin.py:188} INFO - [2024-07-23T19:30:54.651+0000] {dag.py:3947} INFO - Setting next_dagrun for processar_dados_brewery to 2024-07-22 00:00:00+00:00, run_after=2024-07-23 00:00:00+00:00
+[2024-07-23T19:30:54.676+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.368 seconds
+[2024-07-23T19:31:24.805+0000] {processor.py:161} INFO - Started process (PID=131) to work on /opt/airflow/dags/rotina_principal.py
+[2024-07-23T19:31:24.805+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rotina_principal.py for tasks to queue
+[2024-07-23T19:31:24.806+0000] {logging_mixin.py:188} INFO - [2024-07-23T19:31:24.806+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/rotina_principal.py
+[2024-07-23T19:31:25.126+0000] {processor.py:840} INFO - DAG(s) 'processar_dados_brewery' retrieved from /opt/airflow/dags/rotina_principal.py
+[2024-07-23T19:31:25.149+0000] {logging_mixin.py:188} INFO - [2024-07-23T19:31:25.148+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-23T19:31:25.161+0000] {logging_mixin.py:188} INFO - [2024-07-23T19:31:25.161+0000] {dag.py:3947} INFO - Setting next_dagrun for processar_dados_brewery to 2024-07-22 00:00:00+00:00, run_after=2024-07-23 00:00:00+00:00
+[2024-07-23T19:31:25.174+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rotina_principal.py took 0.373 seconds
