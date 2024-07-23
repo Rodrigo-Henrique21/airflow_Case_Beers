@@ -5061,3 +5061,17 @@ File Path                              PID    Runtime      # DAGs    # Errors  L
 -------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
 /opt/airflow/dags/rotina_principal.py                           1           0  0.49s           2024-07-23T00:41:50
 ================================================================================
+[2024-07-23T00:42:22.937+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rotina_principal.py                           1           0  0.48s           2024-07-23T00:42:20
+================================================================================
+[2024-07-23T00:42:38.680+0000] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-07-23T19:25:22.016+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2024-07-23T19:25:22.017+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-07-23T19:25:22.018+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-07-23T19:25:22.019+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2024-07-23T19:25:22.045+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
