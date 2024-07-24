@@ -112,7 +112,7 @@ A estrutura do projeto é a seguinte:
 | config                  | Diretório de configuração do projeto.              |
 | dags                    | Diretório para armazenar os DAGs do Airflow.       |
 | docs                    | Diretório para documentação do projeto.            |
-| datalake                | Diretório para armazenar dados brutos.             |
+| datalake                | Diretório para armazenar dados.                    |
 | logs                    | Diretório para armazenar logs de execução.         |
 | plugins                 | Diretório para plugins do Airflow..                |
 | references              | Diretório para referências e materiais auxiliares. |
