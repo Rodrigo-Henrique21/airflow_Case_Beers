@@ -124,6 +124,6 @@ A estrutura do projeto é a seguinte:
 
 ## Ficou com Dúvidas ❓
 
-Confira a [documentação](airflow_Case_Beers/docs/Documentação.pdf) na raiz do projeto
+Confira a [documentação](/docs/Documentação.pdf) na raiz do projeto
 
 
