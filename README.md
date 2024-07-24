@@ -56,13 +56,9 @@ não há necessidade de preenchimento das variaveis
 ## Instação de dependências ⚒️
 
 1. - Docker: Certifique-se de ter o Docker instalado em sua máquina.🧱
-    1. - Abra o terminal (cmd) e execute o comando.
-    2. - Certifique de estar na pasta do projeto airflow_Case_Beers.
-    3. - Execute o comando para subir o container contendo o airflow e as respectivas dependencias e pacotes do projeto:
-    ```
-    docker-compose up airflow-init
-    ```
-    4. - Após a finalização do comando anterior, inicie e execute os serviços definidos do docker-compose.yml:
+    1. - Certifique de estar na pasta do projeto airflow_Case_Beers.
+    2. - Abra o terminal (cmd) e execute o comando (pwd).
+    3. - Logo apos execute o comando para subir o container contendo o airflow e as respectivas dependencias e pacotes do projeto:
     ```
     docker-compose up
     ```
