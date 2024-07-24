@@ -112,18 +112,18 @@ A estrutura do projeto é a seguinte:
 | config                  | Diretório de configuração do projeto.              |
 | dags                    | Diretório para armazenar os DAGs do Airflow.       |
 | docs                    | Diretório para documentação do projeto.            |
-| landing_zone            | Diretório para armazenar dados brutos.             |
-| &nbsp;&nbsp; logs       | Diretório para armazenar logs de execução.         |
+| datalake                | Diretório para armazenar dados brutos.             |
+| logs                    | Diretório para armazenar logs de execução.         |
 | plugins                 | Diretório para plugins do Airflow..                |
 | references              | Diretório para referências e materiais auxiliares. |
 | venv                    | Diretório do ambiente virtual Python.              |
 | docker-compose          | Arquivo de configuração do Docker Compose.         |
 | DockerFile              | Arquivo de configuração do Docker.                 |
-|-------------------------|----------------------------------------------------|
+|                         |                                                    |
 
 
 ## Ficou com Dúvidas ❓
 
-Confira a [documentação](airflow_Case_Beers/docs/Documentacao.docx) na raiz do projeto
+Confira a [documentação](airflow_Case_Beers/docs/Documentação.pdf) na raiz do projeto
 
 
