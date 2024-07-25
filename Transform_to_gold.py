@@ -18,9 +18,6 @@ df_silver = spark.table("silver.brewery_data")
 # agregação: Contar cervejarias por tipo e localização
 df_gold = df_silver.groupBy("estado", "tipo_cervejaria").count()
 
-# Especificando o caminho para a tabela externa
-external_table_path = f"{mount_point}/brewery_data"
-
 # Escrevendo os dados no caminho especificado no Blob Storage
 df_gold.write\
          .format("delta")\
