@@ -213,9 +213,9 @@ def buscar_e_fazer_upload_dados_brewery():
 
 # Função para executar um job no Databricks
 def executar_job_databricks():
-    databricks_instance = "adb-844462385794132.12.azuredatabricks.net"
-    token = "dapicd6b1aa85deaf7bc282c6aa47e2b8cab-3"
-    job_id = "968731268030929"
+    databricks_instance = ""
+    token = ""
+    job_id = ""
 
     headers = {
         'Authorization': f'Bearer {token}',
