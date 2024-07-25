@@ -1,0 +1,21 @@
+[2024-07-25T19:59:20.362+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-07-25T19:59:20.379+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: executar_workflow_databricks.executar_workflow_databricks manual__2024-07-25T19:59:06.330016+00:00 [queued]>
+[2024-07-25T19:59:20.385+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: executar_workflow_databricks.executar_workflow_databricks manual__2024-07-25T19:59:06.330016+00:00 [queued]>
+[2024-07-25T19:59:20.386+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2024-07-25T19:59:20.398+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): executar_workflow_databricks> on 2024-07-25 19:59:06.330016+00:00
+[2024-07-25T19:59:20.402+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:62: DeprecationWarning: This process (pid=1070) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-07-25T19:59:20.403+0000] {standard_task_runner.py:64} INFO - Started process 1072 to run task
+[2024-07-25T19:59:20.403+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'executar_workflow_databricks', 'executar_workflow_databricks', 'manual__2024-07-25T19:59:06.330016+00:00', '--job-id', '101', '--raw', '--subdir', 'DAGS_FOLDER/rotina_principal_databricks.py', '--cfg-path', '/tmp/tmpor7l2fxy']
+[2024-07-25T19:59:20.405+0000] {standard_task_runner.py:91} INFO - Job 101: Subtask executar_workflow_databricks
+[2024-07-25T19:59:20.433+0000] {task_command.py:426} INFO - Running <TaskInstance: executar_workflow_databricks.executar_workflow_databricks manual__2024-07-25T19:59:06.330016+00:00 [running]> on host a8993c02090e
+[2024-07-25T19:59:20.487+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='executar_workflow_databricks' AIRFLOW_CTX_TASK_ID='executar_workflow_databricks' AIRFLOW_CTX_EXECUTION_DATE='2024-07-25T19:59:06.330016+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-07-25T19:59:06.330016+00:00'
+[2024-07-25T19:59:20.488+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-07-25T19:59:21.428+0000] {logging_mixin.py:188} INFO - Job com job_id 968731268030929 executado com sucesso.
+[2024-07-25T19:59:21.428+0000] {python.py:237} INFO - Done. Returned value was: None
+[2024-07-25T19:59:21.429+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-07-25T19:59:21.435+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=executar_workflow_databricks, task_id=executar_workflow_databricks, run_id=manual__2024-07-25T19:59:06.330016+00:00, execution_date=20240725T195906, start_date=20240725T195920, end_date=20240725T195921
+[2024-07-25T19:59:21.459+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2024-07-25T19:59:21.470+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-07-25T19:59:21.472+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
